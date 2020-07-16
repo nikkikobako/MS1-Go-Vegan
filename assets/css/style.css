@@ -3,8 +3,26 @@
 /* ------------------------- Colours --*/
 
 body {
+    font-family: 'Montserra', sans-serif;
     background-color: #C9C8C8;
+
 }
 
 /* ------------------------- Containers --*/
 
+
+/* ------------------------- Navigation Bar*/
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Alegraya+Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 0;
+    color: #00867d;
+    text-align: right;
+}
