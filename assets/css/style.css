@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,200,300,400;0,700;1,300&family=Montserrat&display=swap');
 
 /* ------------------------- Colours --*/
 
 body {
-    font-family: 'Montserra', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #C9C8C8;
 
+}
+/* ------------------------- Headings --*/
+h1 {
+    font-family: "Alegraya", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 0;
+    color: #00867d;
+    text-align: right;
 }
 
 /* ------------------------- Containers --*/
@@ -16,13 +26,12 @@ body {
 .navbar-brand {
     font-weight: bold;
 }
-
-h1 {
-    font-family: "Alegraya+Sans", sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    margin-top: 0px;
-    padding: 0;
-    color: #00867d;
-    text-align: right;
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
 }
+.navbar .navbar-toggler {
+    border: 0;
+}
+
