@@ -11,7 +11,7 @@ body {
 h1 {
     font-family: "Alegraya", sans-serif;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 100%;
     margin-top: 0px;
     padding: 0;
     color: #00867d;
