@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,200,300,400;0,700;1,300&family=Montserrat&display=swap');
 
-/* ------------------------- Colours --*/
+
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #C9C8C8;
-
 }
+
+/* ------------------------- Colours --*/
+
+.navbar-nav li {
+    color: #00867d;
+}
+
 /* ------------------------- Headings --*/
 h1 {
     font-family: "Alegraya", sans-serif;
@@ -35,3 +41,7 @@ h1 {
     border: 0;
 }
 
+/* ------------------------- Footer*/
+.footer-row i {
+    color: #00867d;
+}
