@@ -45,22 +45,16 @@ h1 {
 footer {
     min-height: 100px;
     margin: 0;
+ }
+ .footer-row {
      text-align: center;
  }
 
 .footer-row i {
     font-size: 20px;
-    color: #00867d;   
-}
-#contact-icon li a i {
- text-align: center;
+    color: #00867d;  
 }
 
-.social-links li a i{
-   width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    line-height: 7px;
-    text-align: center;
+.footer-row col-12 a i {
+    text-align: left;
 }
