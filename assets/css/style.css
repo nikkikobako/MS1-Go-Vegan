@@ -39,7 +39,9 @@ h1 {
 }
 .navbar .navbar-toggler {
     border: 0;
+    border-color:  #e57373 ;
 }
+
 
 /* ------------------------- Footer*/
 footer {
@@ -57,4 +59,7 @@ footer {
 
 .footer-row col-12 a i {
     text-align: left;
+}
+.social-links i:hover {
+    color:#e57373;
 }
