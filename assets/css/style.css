@@ -24,8 +24,6 @@ h1 {
     text-align: right;
 }
 
-/* ------------------------- Containers --*/
-
 
 /* ------------------------- Navigation Bar*/
 
@@ -37,12 +35,18 @@ h1 {
     border: 0;
     width: 100%;
 }
-.navbar .navbar-toggler {
-    border: 0;
-    border-color:  #e57373 ;
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #e57373;
 }
 
-
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+        color: #00867d;
+}
 /* ------------------------- Footer*/
 footer {
     min-height: 100px;
