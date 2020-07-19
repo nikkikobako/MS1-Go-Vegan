@@ -47,7 +47,22 @@ h1 {
 .navbar-light .nav-item:hover .nav-link {
         color: #00867d;
 }
+
+/* ------------------------- Why Main Body*/
+
+.why-pictures {
+    min-height: 140px;
+    width: 100%;
+   }
+
+.why-details {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #3f3f3f;
+}
 /* ------------------------- Footer*/
+
 footer {
     min-height: 100px;
     margin: 0;
