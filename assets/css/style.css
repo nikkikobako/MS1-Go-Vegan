@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,200,300,400;0,700;1,300&family=Montserrat&display=swap');
 
-
+/* ------------------------- Body set to keep footer at bottom --*/
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #C9C8C8;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 150px; //height of the footer
+    box-sizing: border-box;
 }
 
 /* ------------------------- Colours --*/
@@ -23,7 +28,6 @@ h1 {
     color: #00867d;
     text-align: right;
 }
-
 
 /* ------------------------- Navigation Bar*/
 
@@ -57,24 +61,33 @@ h1 {
 
 .why-details {
     height: 100%;
-    width: 100%;
+    width: 100%;   
+   }
+
+.why-text {
     text-align: center;
     color: #3f3f3f;
+    margin-bottom: 10px;
 }
+
 /* ------------------------- Footer*/
 
 footer {
-    min-height: 100px;
     margin: 0;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
  }
  .footer-row {
      text-align: center;
+     padding: 20px;
  }
 
 .footer-row i {
     font-size: 20px;
     color: #00867d;  
 }
+
 
 .footer-row col-12 a i {
     text-align: left;
