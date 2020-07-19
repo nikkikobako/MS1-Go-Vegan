@@ -8,14 +8,7 @@ body {
     min-height: 100vh;
     position: relative;
     margin: 0;
-    padding-bottom: 150px; //height of the footer
-    box-sizing: border-box;
-}
-
-/* ------------------------- Colours --*/
-
-.navbar-nav li a {
-    color: #00867d;
+    padding-bottom: 150px; 
 }
 
 /* ------------------------- Headings --*/
@@ -30,6 +23,7 @@ h1 {
 }
 
 /* ------------------------- Navigation Bar*/
+
 
 .navbar-brand {
     font-weight: bold;
