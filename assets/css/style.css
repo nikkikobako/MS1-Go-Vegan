@@ -55,9 +55,10 @@ h1 {
 .why-text {
     height: 100%;
     width: 100%;  
-    text-align: center;
     color: #3f3f3f;
     margin-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow-y: scroll;
 }
 h3 {
