@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,200,300,400;0,700;1,300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap');
 
 /* ------------------------- Body set to keep footer at bottom --*/
 body {
@@ -12,8 +12,8 @@ body {
 
 /* ------------------------- Headings --*/
 h1 {
-    font-family: "Alegraya", sans-serif;
-    font-weight: 200;
+    font-family: "Alegraya+Sans", sans-serif;
+    font-weight: 700;
     font-size: 100%;
     margin-top: 0px;
     padding: 0;
