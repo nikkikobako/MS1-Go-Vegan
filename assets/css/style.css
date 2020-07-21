@@ -25,6 +25,17 @@ h1 {
    font-size: 130%;
    font-weight: 300;
 }
+
+h2 {
+    font-family: "Alegraya+Sans", sans-serif;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+h3 {
+    text-align: center;
+    color: #3f3f3f;
+}
 /* ------------------------- Navigation Bar*/
 
 
@@ -32,7 +43,7 @@ h1 {
     font-weight: bold;
 }
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 20px;
     border: 0;
     width: 100%;
 }
@@ -65,15 +76,24 @@ h1 {
     padding-right: 5%;
     overflow-y: scroll;
 }
-h3 {
-    text-align: center;
-    color: #3f3f3f;
-}
 
 .text-overflow {
     height: 100%;
-    
+ }
+
+/* ------------------------- Recipe Main Body*/
+
+.food-text {
+    height: 100%;
+    width: 100%;  
+    color: #3f3f3f;
+    margin-bottom: 10px;
+ }
+
+.recipe-row {
+    padding-bottom: 30px;
 }
+
 /* ------------------------- Footer*/
 
 footer {
