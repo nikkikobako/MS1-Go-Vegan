@@ -62,7 +62,6 @@ h3 {
 }
 
 /* ------------------------- Why Main Body*/
-
 .why-pictures {
     min-height: 140px;
     width: 100%;
@@ -81,6 +80,7 @@ h3 {
 .text-overflow {
     height: 100%;
  }
+
 
 /* ------------------------- Recipe Main Body*/
 
@@ -104,7 +104,7 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
