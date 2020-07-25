@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     position: relative;
     margin: 0;
-    padding-bottom: 150px;   
+    padding-bottom: 10px;   
 }
 
 /* ------------------------- Headings --*/
@@ -113,19 +113,28 @@ h3 {
 /* ------------------------- Challange Form Page */
 
 #frog-pic {
-    background: url("../images/frog-pixabay.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
+    background: url("../images/frog-pixabay.jpg") no-repeat center center;
+    
+    height: 650px;
     width: 100%
   }
 
     #frog-outer{
-    height:600px;
+    height:650px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    animation-name: frog-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes frog-zoom{
+  from{
+    transform: scale(1); /*100%*/
+  }
+  to{
+    transform: scale(1.1); /*110%*/
   }
 
  /* #hero-image{
