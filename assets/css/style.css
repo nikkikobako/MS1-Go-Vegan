@@ -11,6 +11,12 @@ body {
 }
 
 /* ------------------------- Headings --*/
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: "Alegraya+Sans", sans-serif;
     font-weight: 700;
@@ -61,6 +67,46 @@ h3 {
         color: #00867d;
 }
 
+/* ------------------------- Home Page*/
+/*
+.main-box {
+    display: inline-block;
+    border: 2px dotted;
+}
+.pic-box {
+    display: inline-block;
+    background: red;
+    height: 400px;
+    width:400px;
+}
+*/
+#pig-pic {
+    height: 341px;
+    width: 556px;
+    background-position-x: 221;
+    background-position-y: 362;
+   border: 15px solid green;
+
+}
+
+#basic-text{
+       height: 224px;
+    width: 415px;
+
+}
+
+
+.box {
+ display: inline-block;
+ background: red;
+ width: 100px;
+ height: 100px;
+}
+#two {
+  background: green;
+}
+*/
+
 /* ------------------------- Why Main Body*/
 .why-pictures {
     min-height: 140px;
@@ -100,9 +146,7 @@ h3 {
 }
 
 .food-pic {
-    background: url("../images/breakfast-oat-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../images/breakfast-oat-unsplash.jpg") no-repeat center center;
     background-size: cover;
     min-height: 300px;
     transition: all .5s ease-in-out;
@@ -114,7 +158,8 @@ h3 {
 
 #frog-pic {
     background: url("../images/frog-pixabay.jpg") no-repeat center center;
-    height: 650px;
+    background-size: cover;
+    height: 630px;
     width: 100%;
     /* sets the amination of the @keyframes below */
     animation-name: frog-zoom;
@@ -123,7 +168,7 @@ h3 {
   }
 
  #frog-outer{
-    height:650px;
+    height:630px;
     width: 100%;
     overflow: hidden;
     position: relative;
