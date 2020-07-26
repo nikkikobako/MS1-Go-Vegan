@@ -71,22 +71,28 @@ h3 {
 
 .main-box {
     display: inline-block;
-    border: 2px dotted;
+    color:  #3f3f3f;
 }
 
-.pic-box {
+/*.pic-box {
     display: inline-block;
-    background: red;
-    
     height: 400px;
-    width: 50%
+    width: 50%;
+   
+  }
+*/
+  .pic-box{
+          width: 150px;
+          height: 150px;
+          opacity: 0.9;
+                               
+         
 }
 
-#pig-pic {
-    top: 100px;
-    left: 250px;
+.pig-pic {
+    top: 80px;
+    left: 450px;
     position: relative;
-    float: left;
     background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -94,18 +100,20 @@ h3 {
     -o-background-size: cover;
     min-height: 341px;
     width: 556px;
-    background-position-x: 221;
-    background-position-y: 362;
-  
-    
- 
-
+    z-index: -1;
 }
 
-#basic-text{
-       height: 224px;
-    width: 415px;
 
+.basic-details {
+    top: 221px;
+    right: 362px;
+    position: relative;
+    float: left;
+    min-height: 224px;
+    width: 415px;
+    text-align: center;
+    background-color: #00867d;
+     z-index: -2;
 }
 
 
