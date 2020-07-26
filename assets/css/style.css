@@ -74,19 +74,10 @@ h3 {
     color:  #3f3f3f;
 }
 
-/*.pic-box {
-    display: inline-block;
-    height: 400px;
-    width: 50%;
-   
-  }
-*/
   .pic-box{
           width: 150px;
           height: 150px;
-          opacity: 0.9;
-                               
-         
+          opacity: 0.9;            
 }
 
 .pig-pic {
@@ -112,7 +103,7 @@ h3 {
     min-height: 224px;
     width: 415px;
     text-align: center;
-    background-color: #00867d;
+    background-color: rgba(140, 249, 31, 0.7);
      z-index: -2;
 }
 
