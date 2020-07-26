@@ -114,55 +114,29 @@ h3 {
 
 #frog-pic {
     background: url("../images/frog-pixabay.jpg") no-repeat center center;
-    
     height: 650px;
-    width: 100%
-  }
-
-    #frog-outer{
-    height:650px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
+    /* sets the amination of the @keyframes below */
     animation-name: frog-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
   }
 
-  @keyframes frog-zoom{
-  from{
-    transform: scale(1); /*100%*/
-  }
-  to{
-    transform: scale(1.1); /*110%*/
-  }
-
- /* #hero-image{
-    height:600px;
-    width: 100%;
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
-    /* sets the amination of the @keyframes below 
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-  }
-    #hero-outer{
-    height:600px;
+ #frog-outer{
+    height:650px;
     width: 100%;
     overflow: hidden;
     position: relative;
-  }
-@keyframes hero-zoom{
-  from{
-    transform: scale(1); /*100%
-  }
-  to{
-    transform: scale(1.1); /*110%
-  }
-}
-  */
+ }
 
-
+  @keyframes frog-zoom{
+    from{
+        transform: scale(1); /*100%*/
+    }
+    to{
+        transform: scale(1.1); /*110%*/
+    }
+  }
 
 /* ------------------------- Footer */
 
