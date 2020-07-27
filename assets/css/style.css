@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-    font-family: "Alegraya+Sans", sans-serif;
+    font-family: "Alegreya+Sans", sans-serif;
     font-weight: 700;
     font-size: 100%;
     margin-top: 0px;
@@ -33,10 +33,17 @@ h1 {
 }
 
 h2 {
-    font-family: "Alegraya+Sans", sans-serif;
+    font-family: "Alegreya+Sans", sans-serif;
     font-weight: 500;
     color: #3f3f3f;
     text-align: center;
+}
+#together a {
+    top: 250px;
+    left: 50px;
+    position: relative;
+    color: #00867d;
+    text-decoration: none;
 }
 
 h3 {
@@ -82,15 +89,15 @@ h3 {
 
 .pig-pic {
     top: 80px;
-    left: 450px;
+    left: 600px;
     position: relative;
     background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height: 341px;
-    width: 556px;
+    min-height: 450px;
+    width: 40%;
     z-index: -1;
 }
 
@@ -99,12 +106,12 @@ h3 {
     top: 221px;
     right: 362px;
     position: relative;
-    float: left;
-    min-height: 224px;
-    width: 415px;
+    min-height: 350px;
+    width: 60%;
     text-align: center;
     background-color: rgba(140, 249, 31, 0.7);
-     z-index: -2;
+    font-weight: 700;
+    z-index: -2;
 }
 
 
