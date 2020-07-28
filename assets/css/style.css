@@ -37,21 +37,14 @@ h2 {
     font-weight: 500;
     color: #3f3f3f;
     text-align: center;
+    margin-top: 10px;
 }
-#together a {
-    top: 210px;
-    left: 50px;
-    position: relative;
-    color: #00867d;
-    text-decoration: none;
-}
-
 h3 {
     text-align: center;
     color: #3f3f3f;
 }
-/* ------------------------- Navigation Bar*/
 
+/* ------------------------- Navigation Bar*/
 
 .navbar-brand {
     font-weight: bold;
@@ -60,6 +53,7 @@ h3 {
     margin-bottom: 20px;
     border: 0;
     width: 100%;
+    font-size: 120%;
 }
 
 .navbar-light .nav-item.active .nav-link,
@@ -128,6 +122,13 @@ h3 {
     z-index: -3;
 }
 
+#together a {
+    top: 210px;
+    left: 50px;
+    position: relative;
+    color: #00867d;
+    text-decoration: none;
+}
 
 /* ------------------------- Why Main Body*/
 .why-pictures {
