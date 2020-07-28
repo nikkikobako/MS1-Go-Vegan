@@ -70,6 +70,20 @@ h3 {
 
 /* ------------------------- Home Page*/
 
+.pig-pic {
+   
+   
+    background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 450px;
+    width: 40%;
+    z-index: -1;
+}
+
+/*
 .main-box {
     display: inline-block;
     color:  #3f3f3f;
@@ -129,7 +143,7 @@ h3 {
     color: #00867d;
     text-decoration: none;
 }
-
+*/
 /* ------------------------- Why Main Body*/
 .why-pictures {
     min-height: 140px;
