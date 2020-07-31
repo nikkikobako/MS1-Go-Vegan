@@ -20,16 +20,16 @@ header {
 h1 {
     font-family: "Alegreya+Sans", sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 0px;
     padding: 0;
     color: #00867d;
     text-align: right;
     }
+
 #why-h1 {
-   text-align: center;
-   padding-bottom: 10px;
-  
+    text-align: center;
+    font-size: 2rem;
  }
 
 h2 {
@@ -39,6 +39,7 @@ h2 {
     text-align: center;
     margin-top: 10px;
 }
+
 h3 {
     text-align: center;
     color: #3f3f3f;
@@ -72,11 +73,11 @@ h3 {
 
 #together a {
     top: 100px;
-    left: 300px;
-    position: absolute;
-       color: #00867d;
+    left: 50px;
+    position: relative;
+    color: #00867d;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 2.5rem;
 }
 .pig-pic {
     
@@ -85,21 +86,23 @@ h3 {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    min-height: 450px;
+    min-height: 500px;
     width: 100%;
-    margin-left: 200px;
+    margin-right: 4rem;
+    margin-left: 10rem;
     margin-bottom: -100px;
     z-index: -1;
 }
 
 .basic-details {
-    margin-left:150px;
+    margin-left:6rem;
     min-height: 350px;
     width: 100%;
     text-align: center;
     background-color: rgba(140, 249, 31, 0.7);
     font-weight: 700;
-    z-index: -2;
+    font-size: 1.5rem;
+    z-index: 1;
 }
 
 #ready-btn {
