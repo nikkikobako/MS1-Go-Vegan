@@ -177,14 +177,14 @@ h3 {
     animation-name: frog-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    
   }
 
  #frog-outer{
     height: 100%;
     width: 100%;
-    
     overflow: hidden;
-    position: absolute;
+    
  }
 
   @keyframes frog-zoom{
@@ -203,16 +203,16 @@ footer {
     position: absolute;
     bottom: 0;
     padding-bottom: 0;
-    height: 3.5rem;
+    height: 4rem;
     width: 100%
  }
  .footer-row {
      text-align: center;
-     padding: 20px;
+     padding: 1rem;
  }
 
 .footer-row i {
-    font-size: 20px;
+    font-size: 2rem;
     color: #00867d;  
 }
 
