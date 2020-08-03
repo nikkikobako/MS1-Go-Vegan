@@ -71,12 +71,18 @@ h3 {
 
 /* ------------------------- Home Page*/
 
+.together-block {
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
 #together a {
     color: #00867d;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    text-align: center;
 }
-.pig-pic {
+
+#pig-pic {
     background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -91,7 +97,7 @@ h3 {
 }
 
 .basic-details {
-    margin-left:3rem;
+    margin-left:4rem;
     min-height: 30vmin;
     width: 50%;
     text-align: center;
