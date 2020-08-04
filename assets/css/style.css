@@ -101,7 +101,7 @@ h3 {
     margin: 0;
 }
 
-.basic-details {
+#basic-details {
     margin-left:4rem;
     min-height: 30vmin;
     width: 50%;
@@ -110,6 +110,11 @@ h3 {
     font-weight: 700;
     font-size: 1.5rem;
     z-index: 1;
+}
+
+.justify-content-sm-center #basic-details {
+    width: 100%;
+    margin: 0;
 }
 
 #ready-btn {
@@ -124,6 +129,10 @@ h3 {
     z-index: -3;
 }
 
+.justify-content-sm-center #read-btn {
+    width: 100%;
+    margin: 0;
+}
 
 /* ------------------------- Why Main Body*/
 .why-pictures {
