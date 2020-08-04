@@ -78,7 +78,7 @@ h3 {
 #together a {
     color: #00867d;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -94,6 +94,11 @@ h3 {
     margin-left: 10rem;
     
     z-index: -1;
+}
+
+.justify-content-sm-center #pig-pic {
+    width: 100%;
+    margin: 0;
 }
 
 .basic-details {
