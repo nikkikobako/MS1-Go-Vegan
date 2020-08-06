@@ -136,12 +136,36 @@ h3 {
 
 /* ------------------------- Why Main Body*/
 .why-pictures {
-    min-height: 140px;
+    min-height: 30vmin;
     width: 100%;
    }
 
+
+#fox-pic {
+    background: url("../images/baby-foxes-pixabay.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ }
+
+#nature-pic {
+    background: url("../images/nature-trees-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ }
+ #rainbow-pic {
+    background: url("../images/rainbow-food-pexels.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ }
+
 .why-text {
-    height: 100%;
+    
     width: 100%;  
     color: #3f3f3f;
     margin-bottom: 10px;
