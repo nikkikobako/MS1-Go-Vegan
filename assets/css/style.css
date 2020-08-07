@@ -78,7 +78,7 @@ h3 {
 #together a {
     color: #00867d;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -89,28 +89,34 @@ h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 50vmin;
-    width: 50%;
+    width: 40%;
     margin-right: 5rem;
     margin-left: 10rem;
     
     z-index: -1;
 }
 
+/* this is for mobile to fill the screen */
+
 .justify-content-sm-center #pig-pic {
     width: 100%;
     margin: 0;
 }
 
-#basic-details {
-    margin-left:4rem;
+#basic-details p {
+    margin-left:5rem;
     min-height: 30vmin;
-    width: 50%;
+    margin-top: -10rem;
+    width: 40%;
     text-align: center;
     background-color: rgba(140, 249, 31, 0.7);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.5rem;
     z-index: 1;
+   
 }
+
+/* this is for mobile to fill the screen */
 
 .justify-content-sm-center #basic-details {
     width: 100%;
@@ -121,12 +127,13 @@ h3 {
     color:  #3f3f3f;
     background-color: #e57373;
     border-color:#e57373; 
-    margin-left:2rem;
+    margin-left:30rem;
+    margin-top: -6rem;
     min-height: 5vmin;
-    width: 200%;
+    width: 30%;
     text-align: center;
     font-weight: 700;
-    z-index: -3;
+    z-index: 2;
 }
 
 .justify-content-sm-center #read-btn {
