@@ -78,7 +78,7 @@ h3 {
 #together a {
     color: #00867d;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -95,6 +95,7 @@ h3 {
     
     z-index: -1;
 }
+
 
 /* this is for mobile to fill the screen */
 
@@ -223,6 +224,8 @@ h3 {
     background-size: cover;
     min-height: 100vh;
     width: 100%;
+    margin: 0;
+    padding: 0;
     /* sets the amination of the @keyframes below */
     animation-name: frog-zoom;
     animation-duration: 5s;

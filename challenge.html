@@ -23,7 +23,7 @@
      <link rel="shortcut icon" type="image/png" href="favicon.png">
   </head>
   <body>
-    <!--------------------------- Header Section including logo and Navigation -->
+<!--------------------------- Header Section including logo and Navigation -->
     <header class="container-fluid">
       <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar-brand mr-auto" href="index.html"
@@ -75,13 +75,37 @@
         </div>
       </div>
     </header>
-    <!--------------------------- Main section - middle of page -->
-    <section class="container-fluid" id="frog-outer">
-        <div id="frog-pic"></div>
+<!--------------------------- Main section - middle of page -->
+    <section class="container-fluid form-section" id="frog-outer">
+        <div id="frog-pic">
+        
+    <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+      <h2>Challange Sign-Up <i class="fas fa-heartbeat"></i></h2>
+      <label for="fname">First Name</label>
+      <input class="text-input" id="fname" type="text" name="first_name" required>
+      <label for="lname">Last Name</label>
+      <input class="text-input" id="lname" type="text" name="last_name" required>
+      <label for="email">Email Address</label>
+      <input class="text-input" id="email" type="email" name="email_address" required>
+      <label for="email">Confirm Email</label>
+      <input class="text-input" id="cemail" type="email" name="cemail_address" required>
+      
+      <label for="daily">Daily Email Support</label>
+      <input id="daily" type="radio" name="support_preference" value="Daily Email Support" required>
+        <label for="weekly">Weekly Email Support</label>
+      <input id="weekly" type="radio" name="support_preference" value="Weekly Email Support" required>
+        <label for="none">No Support Required</label>
+      <input id="none" type="radio" name="support_preference" value="No Support Needed" required>
+
           
-    </section>
+      <input class="join-button" type="submit" value="Lets Begin">
+    </form>
+   
+        </div>
   
-    <!--------------------------- Footer Section -->
+   </section> 
+  
+<!--------------------------- Footer Section -->
     <footer class="container-fluid">
       <div class="row footer-row">
         <div class="col-sm-1 social-links">
@@ -115,7 +139,7 @@
         </div>
       </div>
     </footer>
-
+  
 <!--------------------------- Required for Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
