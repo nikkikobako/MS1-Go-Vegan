@@ -115,7 +115,7 @@ h3 {
 
 /* this is for mobile to fill the screen */
 
-.justify-content-sm-center #basic-details {
+.justify-content-sm-center #basic-details p {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -138,9 +138,10 @@ h3 {
 }
 
 .justify-content-sm-center #ready-btn {
-    width: 100%;
     margin: 0;
     padding: 0;
+    width: 80%
+    
 }
 
 /* ------------------------- Why Main Body*/
