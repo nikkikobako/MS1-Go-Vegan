@@ -249,13 +249,14 @@ h3 {
 
 .signup-form {
     margin-top: 4rem;
+    margin-bottom: 3rem;
     font-size: 1.5rem;
     color: #3f3f3f;
     max-width: 100%;
-    position: absolute;
-    right: 15%;
     text-align: center;
 }
+
+
 
 .support-option {
     color:  #3f3f3f;
