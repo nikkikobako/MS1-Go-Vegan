@@ -252,9 +252,10 @@ h3 {
     margin-top: 4rem;
     margin-bottom: 3rem;
     font-size: 1.5rem;
-    
     max-width: 100%;
     text-align: center;
+    color: #cfd8dc;
+    font-weight: bold;
 }
 
 .signup-form h2 {
@@ -263,20 +264,22 @@ h3 {
 }
 
 .text-input {
-    color: #20292e;
-    
+    color: #cfd8dc;
+    font-weight: bold;
     text-align: center;
     background-color: transparent;
     border-color:transparent;  
 }
+
+/* target the placeholder text */
 .text-input::placeholder{
-    color: #20292e;
-     background-color: transparent;
-    border-color:transparent;  
+    color: #cfd8dc;
+    font-weight: bold;
 }
 
 .support-option {
-    color: #20292e;
+    color: #cfd8dc;
+    font-weight: bold;
 }
 
 .comm-option {
