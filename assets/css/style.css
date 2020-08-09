@@ -251,11 +251,11 @@ h3 {
 .signup-form {
     margin-top: 4rem;
     margin-bottom: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     font-size: 1.5rem;
     max-width: 100%;
     text-align: center;
-    color: #cfd8dc;
-    font-weight: bold;
 }
 
 .signup-form h2 {
