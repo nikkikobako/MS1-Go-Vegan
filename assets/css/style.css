@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap');
 
 /* ------------------------- Body set to keep footer at bottom --*/
 body {
@@ -89,7 +89,6 @@ h3 {
     width: 40%;
     margin-right: 5rem;
     margin-left: 10rem;
-    
     z-index: -1;
 }
 
@@ -125,12 +124,15 @@ h3 {
     color:  #3f3f3f;
     background-color: #e57373;
     border-color:#e57373; 
-    margin-left:30rem;
+    margin-left: 30rem;
     margin-top: -6rem;
     min-height: 5vmin;
-    width: 30%;
+    width: 35%;
+    height: 4rem;
+    border-radius: 25px;
     text-align: center;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: bold;
     z-index: 2;
 }
 
@@ -231,24 +233,22 @@ h3 {
     animation-name: frog-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
  }
 
-   #frog-outer{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    
+#frog-outer{
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
  }
 
-  @keyframes frog-zoom{
-    from{
-        transform: scale(1); /*100%*/
-    }
-    to{
-        transform: scale(1.1); /*110%*/
-    }
-  }
+@keyframes frog-zoom{
+   from{
+       transform: scale(1); /*100%*/
+   }
+   to{
+       transform: scale(1.1); /*110%*/
+   }
+}
 
 .signup-form {
     margin-top: 4rem;
@@ -325,4 +325,4 @@ footer {
 }
 .social-links i:hover {
     color:#e57373;
-}
+} */
