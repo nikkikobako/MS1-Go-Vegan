@@ -254,13 +254,15 @@ h3 {
     max-width: 100%;
     position: absolute;
     right: 15%;
-   
     text-align: center;
 }
 
 .support-option {
     color:  #3f3f3f;
 }
+
+
+
 .signup-form h2 {
     color: #e57373;
     font-size: 3rem;
