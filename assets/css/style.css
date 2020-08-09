@@ -248,14 +248,14 @@ h3 {
     }
   }
 
-.signup-form{
-  margin-top: 150px;
-  color: #fff;
-    font-size: 2rem;
+.signup-form, #communication{
+  margin-top: 3.5rem;
+  color: rgba(140, 249, 31, 0.7);
+  font-size: 2rem;
   max-width: 40%;
   position: absolute;
   right: 10%;
-  padding: 30px;
+  padding: 0.2rem;
   text-align: center;
 }
 
@@ -264,7 +264,7 @@ h3 {
 }
 .signup-form h2 {
     color: #e57373;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .signup-form .join-button {
@@ -272,6 +272,8 @@ h3 {
     color: #3f3f3f;
     font-weight: 700;
 }
+
+
 
 /* ------------------------- Footer */
 

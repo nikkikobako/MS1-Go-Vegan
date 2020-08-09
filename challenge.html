@@ -81,7 +81,7 @@
         
     <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
       <h2>Challange Sign-Up</h2>
-      <br/>
+     
       <label for="fname">
       <input class="text-input" id="fname" type="text" placeholder="First Name" name="first_name" required>
     </label>
@@ -97,17 +97,23 @@
       <label for="email">
       <input class="text-input" id="cemail" type="email" placeholder=" Confirm Email Address" name="cemail_address" required><br/>
        </label>
-       <br/>
-      <input class="join-button" type="submit" value="Lets Begin">
-    </form>
-   
-  <label for="daily">Select communicatrion option</label>   
+      
+             <!-- Drop Down Selection for form --> 
+  <label for="daily">Select communication Option</label>
    <select id="communication" name="comlist" form="signup-form">
+    <option value="none">No Support Required</option>
   <option value="daily">Daily Email Support</option>
   <option value="weekly">Weekly Email Support</option>
-  <option value="none">No Support REquired</option>
+  </select>
+   <br/>
+   <br/>
+   <br/>
+      <input class="join-button" type="submit" value="Lets Begin">
+    </form>
+    <br/>
  
-</select>
+   
+
         </div>
   
    </section> 
