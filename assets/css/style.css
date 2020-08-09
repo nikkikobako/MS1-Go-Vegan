@@ -248,9 +248,9 @@ h3 {
     }
   }
 
-.signup-form, #communication{
-  margin-top: 3.5rem;
-  color: rgba(140, 249, 31, 0.7);
+.signup-form {
+  margin-top: 4rem;
+  
   font-size: 2rem;
   max-width: 40%;
   position: absolute;
@@ -273,7 +273,13 @@ h3 {
     font-weight: 700;
 }
 
-
+.signup-form #communication {
+    color:  #e57373;
+    font-weight: 400;
+    background-color: transparent;
+    border-color:transparent;
+    
+}
 
 /* ------------------------- Footer */
 
