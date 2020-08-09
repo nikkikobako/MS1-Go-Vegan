@@ -81,26 +81,33 @@
         
     <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
       <h2>Challange Sign-Up</h2>
-      <label for="fname"></label>
-      <input class="text-input" id="fname" type="text" placeholder="First Name" name="first_name" required><br/>
-      <label for="lname"></label>
-      <input class="text-input" id="lname" type="text" placeholder="Last Name"name="last_name" required><br/>
-      <label for="email"></label>
-      <input class="text-input" id="email" type="email" placeholder="Email Address" name="email_address" required><br/>
-      <label for="email"></label>
-      <input class="text-input" id="cemail" type="email" placeholder=" Confirm Email Address"name="cemail_address" required><br/>
-      
-      <label for="daily">Daily Email Support</label>
-      <input id="daily" type="radio" name="support_preference" value="Daily Email Support" required>
-        <label for="weekly">Weekly Email Support</label>
-      <input id="weekly" type="radio" name="support_preference" value="Weekly Email Support" required>
-        <label for="none">No Support Required</label>
-      <input id="none" type="radio" name="support_preference" value="No Support Needed" required><br/>
+      <br/>
+      <label for="fname">
+      <input class="text-input" id="fname" type="text" placeholder="First Name" name="first_name" required>
+    </label>
+    
+      <label for="lname">
+      <input class="text-input" id="lname" type="text" placeholder="Last Name" name="last_name" required>
+      </label>
 
-          
+      <label for="email">
+      <input class="text-input" id="email" type="email" placeholder="Email Address" name="email_address" required>
+      </label>
+
+      <label for="email">
+      <input class="text-input" id="cemail" type="email" placeholder=" Confirm Email Address" name="cemail_address" required><br/>
+       </label>
+       <br/>
       <input class="join-button" type="submit" value="Lets Begin">
     </form>
    
+  <label for="daily">Select communicatrion option</label>   
+   <select id="communication" name="comlist" form="signup-form">
+  <option value="daily">Daily Email Support</option>
+  <option value="weekly">Weekly Email Support</option>
+  <option value="none">No Support REquired</option>
+ 
+</select>
         </div>
   
    </section> 

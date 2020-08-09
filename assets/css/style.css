@@ -10,7 +10,7 @@ body {
     padding-bottom: 10px;   
 }
 
-/* ------------------------- Headings --*/
+/* ------------------------- General Headings --*/
 
 header {
     margin: 0;
@@ -26,11 +26,6 @@ h1 {
     color: #00867d;
     text-align: right;
     }
-
-#why-h1 {
-    text-align: center;
-    font-size: 2rem;
- }
 
 h2 {
     font-family: "Alegreya+Sans", sans-serif;
@@ -143,6 +138,11 @@ h3 {
 }
 
 /* ------------------------- Why Main Body*/
+#why-h1 {
+    text-align: center;
+    font-size: 2rem;
+ }
+
 .why-pictures {
     min-height: 40vmin;
     width: 100%;
@@ -251,16 +251,28 @@ h3 {
 .signup-form{
   margin-top: 150px;
   color: #fff;
- 
+    font-size: 2rem;
   max-width: 40%;
   position: absolute;
   right: 10%;
   padding: 30px;
+  text-align: center;
 }
 
+.signup-form .text-input{
+    text-align: center;
+}
 .signup-form h2 {
     color: #e57373;
+    font-size: 3rem;
 }
+
+.signup-form .join-button {
+    background-color:  #e57373;
+    color: #3f3f3f;
+    font-weight: 700;
+}
+
 /* ------------------------- Footer */
 
 footer {
