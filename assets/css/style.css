@@ -95,7 +95,7 @@ h3 {
 /* this is for mobile to fill the screen */
 
 .justify-content-sm-center #pig-pic {
-     width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -137,9 +137,10 @@ h3 {
     z-index: 2;
 }
 
-.justify-content-sm-center #read-btn {
+.justify-content-sm-center #ready-btn {
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 /* ------------------------- Why Main Body*/
