@@ -229,8 +229,7 @@ h3 {
     animation-name: frog-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
-  }
+ }
 
    #frog-outer{
     height: 100%;
@@ -249,22 +248,34 @@ h3 {
   }
 
 .signup-form {
-  margin-top: 4rem;
-  
-  font-size: 2rem;
-  max-width: 40%;
-  position: absolute;
-  right: 10%;
-  padding: 0.2rem;
-  text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: #3f3f3f;
+    max-width: 100%;
+    position: absolute;
+    right: 15%;
+   
+    text-align: center;
 }
 
-.signup-form .text-input{
-    text-align: center;
+.support-option {
+    color:  #3f3f3f;
 }
 .signup-form h2 {
     color: #e57373;
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+
+.text-input {
+    text-align: center;
+    background-color: transparent;
+    border-color:transparent;
+   
+}
+
+.comm-option {
+    color:  #e57373;
+    font-size: 1.5rem;
 }
 
 .signup-form .join-button {
@@ -273,14 +284,6 @@ h3 {
     color: #3f3f3f;
     font-weight: 700;
     border-radius: 25px;
-}
-
-.signup-form #communication {
-    color:  #e57373;
-    font-weight: 400;
-    background-color: transparent;
-    border-color:transparent;
-    
 }
 
 /* ------------------------- Footer */
