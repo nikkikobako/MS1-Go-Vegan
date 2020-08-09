@@ -48,7 +48,7 @@ h3 {
     font-weight: bold;
 }
 .navbar {
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
     border: 0;
     width: 100%;
     font-size: 2rem;
@@ -92,12 +92,12 @@ h3 {
     z-index: -1;
 }
 
-
 /* this is for mobile to fill the screen */
 
 .justify-content-sm-center #pig-pic {
-    width: 100%;
+     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 #basic-details p {
@@ -118,6 +118,7 @@ h3 {
 .justify-content-sm-center #basic-details {
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 #ready-btn {
