@@ -269,8 +269,10 @@ h3 {
 
 .signup-form .join-button {
     background-color:  #e57373;
+    border-color: #e57373;
     color: #3f3f3f;
     font-weight: 700;
+    border-radius: 25px;
 }
 
 .signup-form #communication {
