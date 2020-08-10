@@ -86,17 +86,18 @@ h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 50vmin;
-    width: 40%;
-     margin-right: 5rem;
-        margin-left: 10rem;;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     z-index: -1;
 }
 
 #basic-details p {
-    margin-left:5rem;
+   
     min-height: 30vmin;
-    margin-top: -10rem;
-    width: 40%;
+   margin: 0;
+    padding: 0;
+    width: 100%;
     text-align: center;
     background-color: rgba(140, 249, 31, 0.7);
     font-weight: 400;
@@ -105,24 +106,14 @@ h3 {
    
 }
 
-/* this is for mobile to fill the screen */
-/*
-.justify-content-sm-center #basic-details p {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-*/
-
-
 #ready-btn {
     color:  #3f3f3f;
     background-color: #e57373;
     border-color:#e57373; 
-    margin-left: 30rem;
-    margin-top: -6rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     min-height: 5vmin;
-    width: 35%;
     height: 4rem;
     border-radius: 25px;
     text-align: center;
@@ -139,18 +130,25 @@ justify-content-sm-center #ready-btn{
 
 /* ------------------------- Home page different layout for bigger screens */
 
-@media screen and (max-width: 768px) {
-    #pig-pic,
-    #basic-details p {
-        width: 100%;
-        margin: 0;
-        padding: 0;
+@media screen and (min-width: 768px) {
+    #pig-pic {
+        
+         width: 40%;
+     margin-right: 5rem;
+        margin-left: 10rem;
     }
  
+ #basic-details p {
+margin-left:5rem;
+    margin-top: -10rem;
+    width: 40%;
+ }
+
     #ready-btn {
-        width: 80%;
-        margin: 0;
-        padding: 0;
+        margin-left: 30rem;
+    margin-top: -6rem;
+       width: 35%;
+    
     }
 }
 
