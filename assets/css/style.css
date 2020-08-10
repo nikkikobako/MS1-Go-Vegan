@@ -86,15 +86,11 @@ h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     min-height: 50vmin;
-    width: 40%;
-    margin-right: 5rem;
-    margin-left: 10rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     z-index: -1;
 }
-
-/* this is for mobile to fill the screen */
-
-
 
 #basic-details p {
     margin-left:5rem;
@@ -326,3 +322,14 @@ footer {
 .social-links i:hover {
     color:#e57373;
 } */
+
+/* ------------------------- Home page different layout for bigger screens */
+
+@media screen and (max-width: 768px) {
+    #pig-pic {
+        min-height: 50vmin;
+        width: 40%;
+        margin-right: 5rem;
+        margin-left: 10rem;
+    }
+}
