@@ -94,11 +94,7 @@ h3 {
 
 /* this is for mobile to fill the screen */
 
-.justify-content-sm-center #pig-pic {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 
 #basic-details p {
     margin-left:5rem;
@@ -114,12 +110,14 @@ h3 {
 }
 
 /* this is for mobile to fill the screen */
-
+/*
 .justify-content-sm-center #basic-details p {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+*/
+
 
 #ready-btn {
     color:  #3f3f3f;
@@ -137,11 +135,10 @@ h3 {
     z-index: 2;
 }
 
-.justify-content-sm-center #ready-btn {
+justify-content-sm-center #ready-btn{
     margin: 0;
     padding: 0;
     width: 80%
-    
 }
 
 /* ------------------------- Why Main Body*/
