@@ -1,340 +1,337 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap');
 
-/* ------------------------- Body set to keep footer at bottom --*/
+/* ------------------------- Body --*/
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #C9C8C8;
-    min-height: 100vh;
-    position: relative;
-    margin: 0;
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 4rem;   
+  font-family: "Montserrat", sans-serif;
+  background-color: #c9c8c8;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 4rem;
 }
 
 /* ------------------------- General Headings --*/
 
 header {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-family: "Alegreya+Sans", sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-top: 0px;
-    padding: 0;
-    color: #00867d;
-    text-align: right;
-    }
+  font-family: "Alegreya+Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  padding: 0;
+  color: #00867d;
+  text-align: right;
+}
 
 h2 {
-    font-family: "Alegreya+Sans", sans-serif;
-    font-weight: 500;
-    color: #3f3f3f;
-    text-align: center;
-    margin-top: 10px;
+  font-family: "Alegreya+Sans", sans-serif;
+  font-weight: 500;
+  color: #3f3f3f;
+  text-align: center;
+  margin-top: 10px;
 }
 
 h3 {
-    text-align: center;
-    color: #3f3f3f;
+  text-align: center;
+  color: #3f3f3f;
 }
 
-/* ------------------------- Navigation Bar*/
+/* ------------------------- Navigation Bar ----*/
 
 .navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 .navbar {
-    margin-bottom: 0.5rem;
-    border: 0;
-    width: 100%;
-    font-size: 2rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  width: 100%;
+  font-size: 2rem;
 }
 
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-        color: #e57373;
+  color: #e57373;
 }
 
 .navbar-light .nav-item .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-        color: #00867d;
+  color: #00867d;
 }
 
-/* ------------------------- Home Page*/
+/* ------------------------- Home Page -----*/
 
 .together-block {
-    margin-left: 4rem;
-    margin-top: 10rem;
+  margin-left: 4rem;
+  margin-top: 10rem;
 }
 #together a {
-    color: #00867d;
-    text-decoration: none;
-    font-size: 2rem;
-    text-align: center;
+  color: #00867d;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
 }
-
+    /* this is mobile version */
 #pig-pic {
-    background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height: 50vmin;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    z-index: -1;
+  background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 50vmin;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
 
 #basic-details p {
-   
-    min-height: 30vmin;
-   margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(140, 249, 31, 0.7);
-    font-weight: 400;
-    font-size: 1.5rem;
-    z-index: 1;
-   
+  min-height: 30vmin;
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(140, 249, 31, 0.7);
+  font-weight: 400;
+  font-size: 1rem;
+  z-index: 1;
 }
 
 #ready-btn {
-    color:  #3f3f3f;
-    background-color: #e57373;
-    border-color:#e57373; 
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 5vmin;
-    height: 4rem;
-    border-radius: 25px;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    z-index: 2;
+  color: #3f3f3f;
+  background-color: #e57373;
+  border-color: #e57373;
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  min-height: 4vmin;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 2;
 }
 
-justify-content-sm-center #ready-btn{
-    margin: 0;
-    padding: 0;
-    width: 80%
+justify-content-sm-center #ready-btn {
+  margin: 0;
+  padding: 0;
+  width: 80%;
 }
 
-/* ------------------------- Home page different layout for bigger screens */
+/* ------------------------- Home page different layout for bigger screens   768 */
 
-@media screen and (min-width: 768px) {
-    #pig-pic {
-        
-         width: 40%;
-     margin-right: 5rem;
-        margin-left: 10rem;
-    }
- 
- #basic-details p {
-margin-left:5rem;
-    margin-top: -10rem;
+@media screen and (min-width: 769px) {
+  #pig-pic {
     width: 40%;
- }
+    margin-right: 5rem;
+    margin-left: 10rem;
+  }
 
-    #ready-btn {
-        margin-left: 30rem;
-    margin-top: -6rem;
-       width: 35%;
-    
-    }
+  #basic-details p {
+    margin-top: -10rem;
+    margin-left: 5rem;
+    width: 40%;
+    font-size: 1.5rem;
+  }
+
+  #ready-btn {
+    margin-top: -5rem;
+    margin-left: 30rem;
+    min-height: 6vmin;
+    width: 35%;
+    font-size: 2rem;
+  }
 }
 
 /* ------------------------- Why Main Body*/
 #why-h1 {
-    text-align: center;
-    font-size: 2rem;
- }
+  text-align: center;
+  font-size: 2rem;
+}
 
 .why-pictures {
-    min-height: 40vmin;
-    width: 100%;
-   }
-
+  min-height: 40vmin;
+  width: 100%;
+}
 
 #fox-pic {
-    background: url("../images/baby-foxes-pixabay.jpg") no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
- }
+  background: url("../images/baby-foxes-pixabay.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 #nature-pic {
-    background: url("../images/nature-trees-unsplash.jpg") no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
- }
- #rainbow-pic {
-    background: url("../images/rainbow-food-pexels.jpg") no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
- }
+  background: url("../images/nature-trees-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+#rainbow-pic {
+  background: url("../images/rainbow-food-pexels.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 .why-text {
-    color: #3f3f3f;
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    overflow-y: scroll;
+  color: #3f3f3f;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow-y: scroll;
 }
 
 .text-overflow {
-    height: 100%;
- }
-
+  height: 100%;
+}
 
 /* ------------------------- Recipe Main Body*/
 
 .food-text {
-    height: 100%;
-    width: 100%;  
-    color: #3f3f3f;
-    margin-bottom: 10px;
- }
+  height: 100%;
+  width: 100%;
+  color: #3f3f3f;
+  margin-bottom: 10px;
+}
 
 .recipe-row {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .recipe-row p {
-    text-align: center;
+  text-align: center;
 }
 
 .food-pic {
-    background: url("../images/breakfast-oat-unsplash.jpg") no-repeat center center;
-    background-size: cover;
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+  background: url("../images/breakfast-oat-unsplash.jpg") no-repeat center
+    center;
+  background-size: cover;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 300px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 /* ------------------------- Challange Form Page */
 
 #frog-pic {
-    background: url("../images/frog-pixabay.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 100vh;
-    width: 100%;
-    margin: 0;
-    /* sets the amination of the @keyframes below */
-    animation-name: frog-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
- }
+  background: url("../images/frog-pixabay.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  /* sets the amination of the @keyframes below */
+  animation-name: frog-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
 
-#frog-outer{
-   height: 100%;
-   width: 100%;
-   overflow: hidden;
- }
+#frog-outer {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 
-@keyframes frog-zoom{
-   from{
-       transform: scale(1); /*100%*/
-   }
-   to{
-       transform: scale(1.1); /*110%*/
-   }
+@keyframes frog-zoom {
+  from {
+    transform: scale(1); /*100%*/
+  }
+  to {
+    transform: scale(1.1); /*110%*/
+  }
 }
 
 .signup-form {
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: 1.5rem;
-    max-width: 100%;
-    text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.5rem;
+  max-width: 100%;
+  text-align: center;
 }
 
 .signup-form h2 {
-    color: #e57373;
-    font-size: 3rem;
+  color: #e57373;
+  font-size: 3rem;
 }
 
 .text-input {
-    color: #cfd8dc;
-    font-weight: bold;
-    text-align: center;
-    background-color: transparent;
-    border-color:transparent;  
+  color: #cfd8dc;
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /* target the placeholder text */
-.text-input::placeholder{
-    color: #cfd8dc;
-    font-weight: bold;
+.text-input::placeholder {
+  color: #cfd8dc;
+  font-weight: bold;
 }
 
 .support-option {
-    color: #cfd8dc;
-    font-weight: bold;
+  color: #cfd8dc;
+  font-weight: bold;
 }
 
 .comm-option {
-    color:  #e57373;
-    font-size: 1.5rem;
-    font-weight: 600;
+  color: #e57373;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .signup-form .join-button {
-    background-color:  #e57373;
-    border-color: #e57373;
-    color: #3f3f3f;
-    font-weight: 700;
-    border-radius: 25px;
-    width: 15rem;
+  background-color: #e57373;
+  border-color: #e57373;
+  color: #3f3f3f;
+  font-weight: 700;
+  border-radius: 25px;
+  width: 15rem;
 }
 
 /* ------------------------- Footer */
 
 footer {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 0;
-    height: 4rem;
-    width: 100%
- }
- .footer-row {
-     text-align: center;
-     padding: 1rem;
- }
-
-.footer-row i {
-    font-size: 2rem;
-    color: #00867d;  
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0;
+  height: 4rem;
+  width: 100%;
+}
+.footer-row {
+  text-align: center;
+  padding: 1rem;
 }
 
+.footer-row i {
+  font-size: 2rem;
+  color: #00867d;
+}
 
 .footer-row col-12 a i {
-    text-align: left;
+  text-align: left;
 }
 
 .social-links i:hover {
-    color:#e57373;
+  color: #e57373;
 }
