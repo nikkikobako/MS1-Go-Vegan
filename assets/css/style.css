@@ -119,6 +119,11 @@ h3 {
   z-index: 2;
 }
 
+#center-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 /* ------------------------- Home page different layout for bigger screens   768 */
 
 @media screen and (min-width: 769px) {
@@ -136,8 +141,9 @@ h3 {
   }
 
   #ready-btn {
-    margin-top: -5rem;
-    margin-left: 30rem;
+      display: block;
+    margin-top: -3rem;
+    margin-left: 15rem;
     min-height: 6vmin;
     width: 35%;
     font-size: 2rem;
