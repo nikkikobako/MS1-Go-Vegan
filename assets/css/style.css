@@ -78,7 +78,7 @@ h3 {
   font-size: 2rem;
   text-align: center;
 }
-    /* this is mobile version */
+    /* ------ this is mobile version ------*/
 #pig-pic {
   background: url("../images/baby-pigs-unsplash.jpg") no-repeat center center;
   background-size: cover;
@@ -110,20 +110,13 @@ h3 {
   border-color: #e57373;
   margin: 0;
   padding: 0;
-  
-  width: 100%;
+  width: 80%;
   min-height: 4vmin;
   border-radius: 25px;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   z-index: 2;
-}
-
-justify-content-sm-center #ready-btn {
-  margin: 0;
-  padding: 0;
-  width: 80%;
 }
 
 /* ------------------------- Home page different layout for bigger screens   768 */
@@ -192,7 +185,7 @@ justify-content-sm-center #ready-btn {
   margin-bottom: 1rem;
   padding-left: 5%;
   padding-right: 5%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .text-overflow {
