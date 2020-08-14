@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding-right: 0;
   padding-left: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 /* ------------------------- General Headings --*/
@@ -124,9 +124,32 @@ h3 {
    align-items: center;
    justify-content: center;
 }
-/* ------------------------- Home page different layout for bigger screens   768 */
+/* ------------------------- Home page different layout for bigger screens ---- */
+/* tablet size */
+@media screen and (min-width: 640px) {
+  #pig-pic {
+    width: 100%;
+    margin: 0;
+}
 
-@media screen and (min-width: 769px) {
+  #basic-details p {
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  #ready-btn {
+    display: block;
+    margin: 0;
+    min-height: 6vmin;
+    width: 35%;
+    font-size: 2rem;
+  }
+}
+
+/* large screen */
+@media screen and (min-width: 1024px) {
   #pig-pic {
     width: 40%;
     margin-right: 5rem;
@@ -314,7 +337,7 @@ footer {
   position: absolute;
   bottom: 0;
   padding-bottom: 0;
-  height: 4rem;
+  height: 3rem;
   width: 100%;
 }
 .footer-row {
