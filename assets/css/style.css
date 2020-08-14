@@ -259,8 +259,7 @@ h3 {
 }
 
 .signup-form {
-  margin: 4rem 0.7rem 3rem 0.7rem;
-
+  margin: 7rem 0.7rem 3rem 0.7rem;
   font-size: 1.5rem;
   max-width: 100%;
   text-align: center;
@@ -269,6 +268,7 @@ h3 {
 .signup-form h2 {
   color: #e57373;
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .text-input {
@@ -304,6 +304,7 @@ h3 {
   font-weight: 700;
   border-radius: 25px;
   width: 15rem;
+  margin-bottom: 2rem;
 }
 
 /* ------------------------- Footer */
