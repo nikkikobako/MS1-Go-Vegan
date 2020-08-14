@@ -259,10 +259,8 @@ h3 {
 }
 
 .signup-form {
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
+  margin: 4rem 0.7rem 3rem 0.7rem;
+
   font-size: 1.5rem;
   max-width: 100%;
   text-align: center;
@@ -278,7 +276,8 @@ h3 {
   font-weight: bold;
   text-align: center;
   background-color: transparent;
-  border-color: transparent;
+  border-color:  #e57373;
+  border-radius: 15px;
 }
 
 /* target the placeholder text */
