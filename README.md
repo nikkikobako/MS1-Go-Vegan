@@ -1,6 +1,6 @@
 #Lets Go Vegan#
 
-![Cute Pig]/assets/images/baby-pigs-unsplash.jpg)
+![Cute Pig](/assets/images/baby-pigs-unsplash.jpg)
 My project is to help people transition to vegan 
 
 UX
