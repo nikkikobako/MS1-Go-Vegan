@@ -1,4 +1,4 @@
-# Lets Go Vegan #
+# ->Lets Go Vegan<- 
 
 ![Cute Pig](/assets/images/baby-pigs-unsplash.jpg)
 My project is to help people transition to vegan 
@@ -6,13 +6,17 @@ My project is to help people transition to vegan
 ## UX
 For full UX document please see 
 
-????Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### Website Goals
+
+* An informative website to encourage people to transition to vegan
+* Easy to use to help, not hinder a transition
+* Ability to get in touch for more help
 
 
 ### User Stories for How to go Vegan
 
 * As a user I can see what being vegan means before I decide to convert
-* As a user I can get help and support  to transition to vegan so I am not doing it on my own
+* As a user I can get help and support to transition to vegan so I am not doing it on my own
 * As a user I want to investigate the reasons why someone becomes vegan
 * As a user I am curious about what veganism is and what it involves
 * As a user I want some inspiration of what I can cook 
