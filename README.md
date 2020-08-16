@@ -22,7 +22,9 @@ For full UX document please see
 * As a user I want some inspiration of what I can cook 
 
 ### My Wireframes
-My wireframes 
+I used Balsamiq Wireframes to create my Wireframes
+
+[Go Vegan Wireframe](/assets/documentation/MS1 Go Vegan.bmpr)
 
 
 ## My Features
@@ -78,4 +80,6 @@ The text for section Y was copied from the Wikipedia article Z
 The photos used in this site were obtained from pixabay, unsplash and pexels. Each photo has the origin in the title
 
 ## Acknowledgements
-I received inspiration for this project from Veganuary which is how I became vegan [Veganuary](https://uk.veganuary.com/)
+I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
+
+For my layout I was inspired for the home page from ???
