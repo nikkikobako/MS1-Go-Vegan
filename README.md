@@ -1,6 +1,7 @@
 # Lets Go Vegan
 
 ![Cute Pig](/assets/images/baby-pigs-unsplash.jpg)
+
 My project is to help people transition to vegan 
 
 ## UX
@@ -24,7 +25,7 @@ For full UX document please see
 ### My Wireframes
 I used Balsamiq Wireframes to create my Wireframes
 
-[Go Vegan Wireframe](/assets/documentation/MS1 Go Vegan.bmpr)
+[Go Vegan Wireframe](/assets/documentation/ms1-govegan.bmpr)
 
 
 ## My Features
