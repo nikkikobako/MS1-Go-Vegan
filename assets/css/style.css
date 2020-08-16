@@ -105,6 +105,11 @@ h3 {
   z-index: 1;
 }
 
+#basic-details p {
+    text-decoration: none;
+}
+
+
 #ready-btn {
   color: #3f3f3f;
   background-color: #e57373;
