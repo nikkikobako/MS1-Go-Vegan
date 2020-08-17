@@ -23,9 +23,10 @@ For full UX document please see
 * As a user I want some inspiration of what I can cook 
 
 ### My Wireframes
-I used Balsamiq Wireframes to create my Wireframes
+I used Balsamiq Wireframes to create my Wireframes. They include 4 mobile pages, 
+4 desktop pages and 1 for tablet as all other tablet views are the same as desktop.
 
-[Go Vegan Wireframe](/assets/documentation/ms1-govegan.bmpr)
+[MS1 Vegan Wireframe](https:/https://github.com/nikkikobako/MS1-Go-Vegan)
 
 
 ## My Features
