@@ -215,11 +215,8 @@ h3 {
   margin-bottom: 1rem;
   padding-left: 5%;
   padding-right: 5%;
+  height: 18rem;
   overflow-y: auto;
-}
-
-.text-overflow {
-  height: 100%;
 }
 
 /* ------------------------- Recipe Main Body*/
