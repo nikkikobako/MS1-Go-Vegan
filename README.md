@@ -26,7 +26,7 @@ For full UX document please see
 I used Balsamiq Wireframes to create my Wireframes. They include 4 mobile pages, 
 4 desktop pages and 1 for tablet as all other tablet views are the same as desktop.
 
-[MS1 Vegan Wireframe](https:/https://https://github.com/nikkikobako/MS1-Go-Vegan/tree/master/assets/wireframes)
+[MS1 Vegan Wireframe](https://github.com/nikkikobako/MS1-Go-Vegan/tree/master/assets/wireframes)
 
 
 ## My Features
