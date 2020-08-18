@@ -244,14 +244,16 @@ h3 {
 }
 
 .food-pic {
-  background: url("../images/breakfast-oat-unsplash.jpg") no-repeat center
+ /* background: url("../images/breakfast-oat-unsplash.jpg") no-repeat center
     center;
   background-size: cover;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  min-height: 300px;
+  -o-background-size: cover;*/
+  height: auto;
+  max-width: 100%;
+  border: 10px;
 }
 
 /* ------------------------- Challange Form Page */
