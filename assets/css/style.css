@@ -220,11 +220,9 @@ h3 {
 }
 
 /* ------------------------- Recipe Main Body*/
-.recipe-row {
-  padding-bottom: 30px;
-}
 
-.recipe-title h2 {
+
+.recipe-title a {
     text-decoration: none;
 }
 
@@ -233,27 +231,23 @@ h3 {
   width: 100%;
   font-size: 1rem;
   color: #3f3f3f;
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
 }
 
 .recipe-row p {
-  margin-top: 2rem;  
+ 
+  margin-top: 3rem;  
   text-align: center;
   font-weight: 400;
   font-size: 1.5rem;
 }
 
 .food-pic {
- /* background: url("../images/breakfast-oat-unsplash.jpg") no-repeat center
-    center;
-  background-size: cover;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
+  
+  padding-bottom: 2rem;
   height: auto;
   max-width: 100%;
-  border: 10px;
+  border: 1rem;
 }
 
 /* ------------------------- Challange Form Page */
