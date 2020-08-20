@@ -224,7 +224,7 @@ h3 {
   padding-bottom: 30px;
 }
 
-#recipe-title {
+.recipe-title h2 {
     text-decoration: none;
 }
 
