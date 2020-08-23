@@ -220,6 +220,11 @@ h3 {
   overflow-y: auto;
 }
 
+.why-text li{
+    text-align: left;
+}
+
+
 /* ------------------------- Recipe Main Body*/
 
 .recipe-row a {
