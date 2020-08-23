@@ -5,7 +5,7 @@
 My project is to help people transition to vegan 
 
 ## UX
-For full UX document please see 
+For full UX document please see [MS1 UX Design Document](https://github.com/nikkikobako/MS1-Go-Vegan/blob/master/assets/documentation/How%20to%20go%20Vegan.pdf)
 
 ### Website Goals
 
