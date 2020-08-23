@@ -296,7 +296,7 @@ h3 {
 }
 
 .text-input {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 15px;
   text-align: center;
   background-color: transparent;
@@ -308,18 +308,18 @@ h3 {
 /* target the placeholder text */
 .text-input::placeholder {
   color: #cfd8dc;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .support-option {
   color: #cfd8dc;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .comm-option {
   color: #e57373;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .signup-form .join-button {
@@ -338,6 +338,7 @@ h3 {
   .text-input,
   .join-button { 
     font-size: 2rem;
+    font-weight: bold;
   }
   .signup-form {
       margin-top: 5rem;
