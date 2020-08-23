@@ -334,17 +334,30 @@ h3 {
 
 /* --- Larger text for bigger screens */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) { /* tablet */
+  .text-input,
+  .join-button { 
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .signup-form {
+      margin-top: 8rem;
+  }
+}
+
+
+@media screen and (min-width: 1024px) { /* laptop and above */
   .text-input,
   .join-button { 
     font-size: 2rem;
     font-weight: bold;
   }
   .signup-form {
-      margin-top: 5rem;
+      margin-top: 7rem;
+      margin-right: 3rem;
   }
-  
 }
+
 /* ------------------------- Footer */
 
 footer {
