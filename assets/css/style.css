@@ -303,6 +303,8 @@ h3 {
   background-color: transparent;
   border-color:  #e57373;
   border-radius: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 /* target the placeholder text */
