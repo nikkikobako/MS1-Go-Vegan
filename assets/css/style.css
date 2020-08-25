@@ -341,9 +341,15 @@ h3 {
     font-size: 1.5rem;
     font-weight: 900;
   }
+
   .signup-form {
       margin-top: 8rem;
   }
+  
+  .text-input::placeholder {
+     font-weight: 900;
+    }
+
 }
 
 /* laptop and above */
