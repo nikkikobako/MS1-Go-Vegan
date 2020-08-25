@@ -345,10 +345,6 @@ h3 {
   .signup-form {
       margin-top: 8rem;
   }
-  
-  .text-input::placeholder {
-     font-weight: 900;
-    }
 
 }
 
