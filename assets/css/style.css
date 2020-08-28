@@ -224,6 +224,15 @@ h3 {
     text-align: left;
 }
 
+.why-text .btn{  
+  background-color: #e57373;
+  border-color: #e57373;
+  color: #3f3f3f;
+  font-weight: 900;
+  border-radius: 25px;
+  width: 15rem;
+ }
+
 /* ------------------------- Recipe Main Body*/
 
 .recipe-row a {
