@@ -30,7 +30,9 @@ I used Balsamiq Wireframes to create my Wireframes. They include 4 mobile pages,
 
 #### Amendments to Wireframes
 Since creating the wireframes, as part of testing I have amended to improve the user experiance as follows
-* For the large screen recipe view I amended to have 2 recipes per row, as the page looked very empty
+* For the large screen recipe page I amended to have 2 recipes per row, as the page looked very empty
+* For all sizes for the why go vegan page I have renoved the scroll option for the text 
+* For the tablet screen why go vegan page I have amended to the same as mobile 1 column width as the screen looked to crowded
 
 ## My Features
 ???? In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -60,6 +62,22 @@ For any scenarios that have not been automated, test the user stories manually a
 My contact is via a challange form
 Go to the "Contact Us" page
 
+
+## Testing
+Testing has been completed using the follwoing
+
+1. Initial testing was via gitpod and the developer tool inspect to show my pages as mobile, tablet and full screen
+2. The code was then published via git hub and tested on the following devices
+*  Samsung S8 mobile phone
+*  Samsung Galaxy S2 tablet
+*  Mac?
+*  Microsoft surface?
+3. Browser Chrome
+4. The code was then shared on Slack for testing 
+5. tested on????
+
+### Tests completed
+1. 
 ????Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
@@ -68,6 +86,9 @@ In addition, you should mention in this section how your project looks and works
 ????You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 ????If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+
 
 ## Deployment
 ?????This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
