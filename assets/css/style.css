@@ -233,6 +233,11 @@ h3 {
   width: 15rem;
  }
 
+ .card-body {
+     background-color: #c9c8c8;
+     border-color: #c9c8c8;
+ }
+
 /* ------------------------- Recipe Main Body*/
 
 .recipe-row a {
