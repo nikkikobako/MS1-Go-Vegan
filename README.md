@@ -18,6 +18,7 @@
 7. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
+    3. [Refrences](#refrences)
 9. [Acknowledgements](#acknowledgements)
 
 ## Introductions to my Project <a name="introduction"></a>
@@ -165,11 +166,22 @@ Once I reached the stage of wanting to test on mobile and tablet I then publishe
 The entire site is fictional and created by myself
 
 ### Media <a name="media"></a>
-The photos used in this site were obtained from pixabay, unsplash and pexels. Each photo has the origin in the title
+The photos used in this site were obtained from [pixabay](https://pixabay.com/?rf=jimdo), [Unsplash](https://unsplash.com/),
+[Pexels[(https://www.pexels.com/)] and google search images.
+Each photo has the origin in the title to show where it was obtained from.
 
 My logo was created using [Canva](https://www.canva.com/), I also used my logo for the favicon
 
 :house:[ Table of Content](#home)
+
+### Refrences <a name="refrences"></a>
+I have used a number of references to useful people, sites and tools that can help someone go vegan. These sites are free and readily available
+for anyone to use.
+* [Earthling Ed](https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg)
+* [Mick the Vegan](https://www.youtube.com/channel/UCGJq0eQZoFSwgcqgxIE9MHw)
+* [Vegan Calculator](https://thevegancalculator.com/)
+* [Dr Michael Greger](https://nutritionfacts.org/)
+* [Dr Neal Barnard](https://www.pcrm.org/yourbodyinbalance)
 
 ## Acknowledgements <a name="acknowledgements"></a>
 I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
