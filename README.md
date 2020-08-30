@@ -16,7 +16,8 @@
 5. [Testing](#testing)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
-8. [Media](#media)
+    1. [Content](#content)
+    2. [Media](#media)
 9. [Acknowledgements](#acknowledgements)
 
 ## Introductions to my Project <a name="introduction"></a>
@@ -150,8 +151,8 @@ branching, I only used the master for version control.
 ### Project Deployment to Live
 Once I reached the stage of wanting to test on mobile and tablet I then published my webiste to live using GitHub via the following steps
 
-1. Open my GitHub project [Go Vegan](https://github.com/nikkikobako/MS1-Go-Vegan)
-2. Go to :cog: Settings
+1. Open my GitHub project [MS1 Go Vegan](https://github.com/nikkikobako/MS1-Go-Vegan)
+2. Go to Settings
 3. Scroll down until reach the section GitHub Pages
 4. Change the branch option from none to master and saved
 5. This then gave me a live website [Go Vegan](https://nikkikobako.github.io/MS1-Go-Vegan/)
@@ -159,11 +160,9 @@ Once I reached the stage of wanting to test on mobile and tablet I then publishe
 :house:[ Table of Content](#home)
 
 ## Credits <a name="credits"></a>
-?????Content
 
-For my layout I was inspired for the home page from a google search of images
-
-:house:[ Table of Content](#home)
+### Content <a name="content"></a>
+The entire site is fictional and created by myself
 
 ### Media <a name="media"></a>
 The photos used in this site were obtained from pixabay, unsplash and pexels. Each photo has the origin in the title
@@ -174,6 +173,8 @@ My logo was created using [Canva](https://www.canva.com/), I also used my logo f
 
 ## Acknowledgements <a name="acknowledgements"></a>
 I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
+
+For my layout I was inspired for the home page from a google search of images
 
 I have used google search to solve a number of issues, this included sites [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) 
 along with the slack community and my mentor
