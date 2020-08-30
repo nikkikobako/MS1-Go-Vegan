@@ -2,19 +2,36 @@
 
 ![Cute Pig](/assets/images/baby-pigs-unsplash.jpg)
 
-My project is to help people transition to vegan, it is to encourage someone to take the first step in the journey ????
 
-## UX
+# Table of contents
+1. [Introduction to my Project](#introduction)
+2. [UX](#ux)
+    2.1. [Website Goals](#webgoal)
+    2.2. [User Stories for How to go Vegan](#userstory)
+3. [](#)
+
+## Introductions to my Project <a name="introduction"></a>
+My project is to help people transition to vegan, it is to encourage someone to take the first step in the journey to a more sustainable, compasionate healthy lifestyle.
+
+So are you curious about what going Vegan means?
+If you are, you are in the right place. We live in a world that is vastly different from our ancestors, the modern world bombards us with advertisements, 
+fast foods, quick fixes and the easy path to utopia. Yet at the same time it removes us from what really happens to our food, the additives affecting our health, 
+the impact to our environment and the cost to the animals we eat.
+
+People in all walks of life are going vegan, for the animals, for the environment, for their health. Whatever your reason for considering the vegan lifestyle, 
+we can all do our part in improving the world we live in.  
+
+## UX <a name="ux"></a>
 For full UX document please see [MS1 UX Design Document](https://github.com/nikkikobako/MS1-Go-Vegan/blob/master/assets/documentation/How%20to%20go%20Vegan.pdf)
 
-### Website Goals
+### Website Goals <a name="webgoal"></a>
 
 * An informative website to encourage people to transition to vegan
 * Easy to use to help, not hinder a transition
 * Ability to get in touch for more help
 
 
-### User Stories for How to go Vegan
+### User Stories for How to go Vegan <a name="userstory"></a>
 
 * As a user I can see what being vegan means before I decide to convert
 * As a user I can get help and support to transition to vegan so I am not doing it on my own
@@ -33,6 +50,7 @@ Since creating the wireframes, as part of testing I have amended to improve the 
 * For the large screen recipe page I amended to have 2 recipes per row, as the page looked very empty
 * For all sizes for the why go vegan page I have renoved the scroll option for the text 
 * For the tablet screen why go vegan page I have amended to the same as mobile 1 column width as the screen looked to crowded
+* For the XL screen on the why page I added collapsable buttons as the text was different sizes
 
 ## My Features
 ???? In this section, you should go over the different parts of your project, and describe each in a sentence or so.
