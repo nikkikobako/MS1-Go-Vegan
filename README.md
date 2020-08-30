@@ -73,7 +73,7 @@ The project consists of four pages, displaying the home page on initial load.
 * Why go vegan can be accessed via the text "Lets Go Vegan! for mobile view and "Lets Go Vegan Together" on tablet and large screen 
 as well as the navigation menu from any page
 * The Recipe page can be access via the navigation menu from any page
-* The Challange page can be accessed via the footer email icon on tablets and larger screens and via the navigation menu from any page
+* The Challenge page can be accessed via the footer email icon on tablets and larger screens and via the navigation menu from any page
 
 ### Phase 1 Features <a name="phase1"></a>
 ????Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -125,14 +125,14 @@ Testing has been completed using the following
 
 1. Initial testing was via gitpod and the developer tool inspect to show my pages as mobile, tablet and full screen
 2. The code was then published via git hub and tested on the following devices
-*  Samsung S8 mobile phone
-*  Samsung Galaxy S2 tablet
-*  Oukitel C15 Pro mobile phone
-*  iMac desktop
-*  Microsoft surface?
-3. Browser Chrome
-4. The code was shared on Slack for testing by the community
-5. Each html and css was ran through 
+    1. Samsung S8 mobile phone
+    2. Samsung Galaxy S2 tablet
+    3. Oukitel C15 Pro mobile phone
+    4. iMac desktop
+    5. Microsoft surface Pro
+    6. Browser Chrome
+3. The code was shared on Slack for testing by the community
+4. Each html and css was ran through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no errors
 
 ### Tests completed
 1. 
