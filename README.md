@@ -85,10 +85,14 @@ In this section, you should mention all of the languages, frameworks, libraries,
 :house:[ Table of Content](#home)
 
 ## Technologies Used <a name="technologies"></a>
+
 The project used a number of technologies to build the website
 * HTML5
 * CSS
-* JQuery 
+* Bootstrap framwork including JQuery
+* GitPod
+* GitHub
+
 
 :house:[ Table of Content](#home)
 
@@ -137,14 +141,20 @@ Go to the "Contact Us" page
 
 
 ## Deployment <a name="deployment"></a>
-?????This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+### Project Creation
+Go Vegan project was created via GitHub using the CodeInstitue template to then open in GitPod. All coding was done in GitPod and pushed back to GitHub 
+for storage and version control using the "git add." followed by "git commit -m" and finally the "git push" command. On this occasion I did not use any 
+branching, I only used the master for version control.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### Project Deployment to Live
+Once I reached the stage of wanting to test on mobile and tablet I then published my webiste to live using GitHub via the following steps
+
+1. Open my GitHub project [Go Vegan](https://github.com/nikkikobako/MS1-Go-Vegan)
+2. Go to :cog: Settings
+3. Scroll down until reach the section GitHub Pages
+4. Change the branch option from none to master and saved
+5. This then gave me a live website [Go Vegan](https://nikkikobako.github.io/MS1-Go-Vegan/)
 
 :house:[ Table of Content](#home)
 
