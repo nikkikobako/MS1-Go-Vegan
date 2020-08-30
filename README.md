@@ -89,11 +89,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ## Technologies Used <a name="technologies"></a>
 
 The project used a number of technologies to build the website
+
 * HTML5
 * CSS
-* Bootstrap framwork including JQuery
-* GitPod
-* GitHub
+* [GitPod](https://www.gitpod.io/)
+* [GitHub](https://github.com/)
+* [Bootstrap framwork including JQuery](https://getbootstrap.com/)
+* [FontAwesome](https://fontawesome.com/)
+* [Canva](https://www.canva.com/)
+* [TinyPNG](https://tinypng.com/)
+* [Google Font ](https://fonts.google.com/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
 
 
 :house:[ Table of Content](#home)
@@ -167,7 +174,7 @@ The entire site is fictional and created by myself
 
 ### Media <a name="media"></a>
 The photos used in this site were obtained from [pixabay](https://pixabay.com/?rf=jimdo), [Unsplash](https://unsplash.com/),
-[Pexels[(https://www.pexels.com/)] and google search images.
+[Pexels](https://www.pexels.com/)] and google search images.
 Each photo has the origin in the title to show where it was obtained from.
 
 My logo was created using [Canva](https://www.canva.com/), I also used my logo for the favicon
@@ -184,11 +191,11 @@ for anyone to use.
 * [Dr Neal Barnard](https://www.pcrm.org/yourbodyinbalance)
 
 ## Acknowledgements <a name="acknowledgements"></a>
-I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
 
-For my layout I was inspired for the home page from a google search of images
-
-I have used google search to solve a number of issues, this included sites [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) 
-along with the slack community and my mentor
+* I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
+* For my layout I was inspired for the home page from a google search of images
+* I have used google search to solve a number of issues, this included sites [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) 
+* I used the slack community for support and help when I encountered some of my puzzling issues
+* My mentor Akshat Garg helped with industry standard tools and a few suggestions for UX readability
 
 :house:[ Table of Content](#home)
