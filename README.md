@@ -12,7 +12,7 @@
 3. [My Features](#features)
     1. [Phase 1 Features](#phase1)
     2. [Phase 2 Features Left to Implement](#phase2)
-4. [JQuery](#jquery)    
+4. [Technologies](#technologies)    
 5. [Testing](#testing)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
@@ -30,7 +30,9 @@ the impact to our environment and the cost to the animals we eat.
 People in all walks of life are going vegan, for the animals, for the environment, for their health. Whatever your reason for considering the vegan lifestyle, 
 we can all do our part in improving the world we live in.  
 
-[Table of Content](#home)
+To see the live project [click here](https://nikkikobako.github.io/MS1-Go-Vegan/)
+
+:house:[ Table of Content](#home)
 
 ## UX <a name="ux"></a>
 For full UX document please see [MS1 UX Design Document](https://github.com/nikkikobako/MS1-Go-Vegan/blob/master/assets/documentation/How%20to%20go%20Vegan.pdf)
@@ -82,8 +84,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 [Table of Content](#home)
 
-## JQuery <a name="jquery"></a>
-The project uses JQuery for built in Bootstrap queries
+## Technologies Used <a name="technologies"></a>
+The project used a number of technologies to build the website
+* HTML5
+* CSS
+* JQuery 
 
 [Table of Content](#home)
 
