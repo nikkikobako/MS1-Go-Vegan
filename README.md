@@ -6,9 +6,18 @@
 # Table of contents
 1. [Introduction to my Project](#introduction)
 2. [UX](#ux)
-    2.1. [Website Goals](#webgoal)
-    2.2. [User Stories for How to go Vegan](#userstory)
-3. [](#)
+    1. [Website Goals](#webgoal)
+    2. [User Stories for How to go Vegan](#userstory)
+    3. [My Wireframes](#wireframe)
+3. [My Features](#features)
+    1. [Phase 1 Features](#phase1)
+    2. [Phase 2 Features Left to Implement](#phase2)
+4. [JQuery](#jquery)    
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Media](#media)
+9. [Acknowledgements](#acknowledgements)
 
 ## Introductions to my Project <a name="introduction"></a>
 My project is to help people transition to vegan, it is to encourage someone to take the first step in the journey to a more sustainable, compasionate healthy lifestyle.
@@ -39,7 +48,7 @@ For full UX document please see [MS1 UX Design Document](https://github.com/nikk
 * As a user I am curious about what veganism is and what it involves
 * As a user I want some inspiration of what I can cook 
 
-### My Wireframes
+### My Wireframes <a name="wireframe"></a>
 I used Balsamiq Wireframes to create my Wireframes. They include 4 mobile pages, 
 4 desktop pages and 1 for tablet as all other tablet views are the same as desktop.
 
@@ -52,47 +61,49 @@ Since creating the wireframes, as part of testing I have amended to improve the 
 * For the tablet screen why go vegan page I have amended to the same as mobile 1 column width as the screen looked to crowded
 * For the XL screen on the why page I added collapsable buttons as the text was different sizes
 
-## My Features
+## My Features <a name="features"></a>
 ???? In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-### Phase 1 Features
+### Phase 1 Features <a name="phase1"></a>
 ????Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Phase 2 Features Left to Implement
+### Phase 2 Features Left to Implement <a name="phase2"></a>
 ?????Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-## JQuery
-???? The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## JQuery <a name="jquery"></a>
+The project uses JQuery for built in Bootstrap queries
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+## Testing <a name="testing"></a>
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, 
+in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
+with the project providing an easy and straightforward way for the users to achieve their goals.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, 
+link to the test file(s) and explain how to run them.
 
-## My Contact Form
-My contact is via a challange form
-Go to the "Contact Us" page
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
+A particularly useful form for describing your testing process is via scenarios, such as:
 
 
-## Testing
-Testing has been completed using the follwoing
+
+Testing has been completed using the following
 
 1. Initial testing was via gitpod and the developer tool inspect to show my pages as mobile, tablet and full screen
 2. The code was then published via git hub and tested on the following devices
 *  Samsung S8 mobile phone
 *  Samsung Galaxy S2 tablet
-*  Mac?
+*  Oukitel C15 Pro mobile phone
+*  iMac desktop
 *  Microsoft surface?
 3. Browser Chrome
-4. The code was then shared on Slack for testing 
-5. tested on????
+4. The code was shared on Slack for testing by the community
+5. Each html and css was ran through 
 
 ### Tests completed
 1. 
@@ -105,10 +116,12 @@ In addition, you should mention in this section how your project looks and works
 
 ????If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+## My Contact Form
+My contact is via a challange form
+Go to the "Contact Us" page
 
 
-
-## Deployment
+## Deployment <a name="deployment"></a>
 ?????This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -118,17 +131,17 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-## Credits
+## Credits <a name="credits"></a>
 ?????Content
 
 For my layout I was inspired for the home page from a google search of images
 
-### Media
+### Media <a name="media"></a>
 The photos used in this site were obtained from pixabay, unsplash and pexels. Each photo has the origin in the title
 
 My logo was created using [Canva](https://www.canva.com/), I also used my logo for the favicon
 
-## Acknowledgements
+## Acknowledgements <a name="acknowledgements"></a>
 I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
 
 I have used google search to solve a number of issues, this included sites [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) 
