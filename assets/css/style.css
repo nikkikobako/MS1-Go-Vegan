@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap");
 
 /* ------------------------- Body --*/
 body {
@@ -99,7 +99,7 @@ h3 {
   padding: 5px;
   width: 100%;
   text-align: center;
-  background-color:rgb(0, 134, 125, 0.5);
+  background-color: rgb(0, 134, 125, 0.5);
   font-weight: 400;
   font-size: 0.8rem;
   z-index: 1;
@@ -121,9 +121,9 @@ h3 {
 }
 
 #center-btn {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ------------------------- Home page different layout for bigger screens ---- */
@@ -133,7 +133,7 @@ h3 {
   #pig-pic {
     width: 100%;
     margin: 0;
-}
+  }
 
   #basic-details p {
     margin-top: 15px;
@@ -217,31 +217,33 @@ h3 {
   margin-bottom: 1rem;
   padding-left: 5%;
   padding-right: 5%;
-    
 }
 
-.why-text li{
-    text-align: left;
+.why-text li {
+  text-align: left;
 }
 
-.why-text .btn{  
+.why-text .btn {
+  padding: 0;
   background-color: #e57373;
   border-color: #e57373;
   color: #3f3f3f;
   font-weight: 900;
   border-radius: 25px;
-  width: 15rem;
- }
+  width: 25rem;
+  height: 5rem;
+  font-size: 1.5rem;
+}
 
- .card-body {
-     background-color: #c9c8c8;
-     border-color: #c9c8c8;
- }
+.card-body {
+  background-color: #c9c8c8;
+  border-color: #c9c8c8;
+}
 
 /* ------------------------- Recipe Main Body*/
 
 .recipe-row a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .food-text {
@@ -253,7 +255,7 @@ h3 {
 }
 
 .recipe-row p {
-  margin-top: 3rem;  
+  margin-top: 3rem;
   text-align: center;
   font-weight: 400;
   font-size: 1.5rem;
@@ -263,7 +265,7 @@ h3 {
   padding-bottom: 2rem;
   height: 20rem;
   width: 100%;
-  border: 1rem;   
+  border: 1rem;
 }
 
 /* ------------------------- Challange Form Page */
@@ -312,9 +314,8 @@ h3 {
   font-size: 15px;
   text-align: center;
   background-color: transparent;
-  border-color:  #e57373;
+  border-color: #e57373;
   border-radius: 17px;
-
 }
 
 /* target the placeholder text */
@@ -347,29 +348,28 @@ h3 {
 /* --- Larger text for bigger screens */
 
 /* tablet */
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   .text-input,
-  .join-button { 
+  .join-button {
     font-size: 1.5rem;
     font-weight: 900;
   }
 
   .signup-form {
-      margin-top: 8rem;
+    margin-top: 8rem;
   }
-
 }
 
 /* laptop and above */
 @media screen and (min-width: 1024px) {
   .text-input,
-  .join-button { 
+  .join-button {
     font-size: 2rem;
     font-weight: bold;
   }
   .signup-form {
-      margin-top: 7rem;
-      margin-right: 3rem;
+    margin-top: 7rem;
+    margin-right: 3rem;
   }
 }
 
