@@ -3,7 +3,7 @@
 ![Cute Pig](/assets/images/baby-pigs-unsplash.jpg)
 
 
-# Table of contents
+# Table of Contents <a name="home"></a>
 1. [Introduction to my Project](#introduction)
 2. [UX](#ux)
     1. [Website Goals](#webgoal)
@@ -29,6 +29,7 @@ the impact to our environment and the cost to the animals we eat.
 
 People in all walks of life are going vegan, for the animals, for the environment, for their health. Whatever your reason for considering the vegan lifestyle, 
 we can all do our part in improving the world we live in.  
+[Table of Content](#home)
 
 ## UX <a name="ux"></a>
 For full UX document please see [MS1 UX Design Document](https://github.com/nikkikobako/MS1-Go-Vegan/blob/master/assets/documentation/How%20to%20go%20Vegan.pdf)
