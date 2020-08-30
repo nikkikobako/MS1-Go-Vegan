@@ -24,13 +24,10 @@
 ## Introductions to my Project <a name="introduction"></a>
 My project is to help people transition to vegan, it is to encourage someone to take the first step in the journey to a more sustainable, compasionate healthy lifestyle.
 
-So are you curious about what going Vegan means?
-If you are, you are in the right place. We live in a world that is vastly different from our ancestors, the modern world bombards us with advertisements, 
-fast foods, quick fixes and the easy path to utopia. Yet at the same time it removes us from what really happens to our food, the additives affecting our health, 
-the impact to our environment and the cost to the animals we eat.
+If you are curious about what going Vegan means? Then my website will help with motivation and reasons why going vegan is the best choose you can make for 
+the animals, the planet and your health.
 
-People in all walks of life are going vegan, for the animals, for the environment, for their health. Whatever your reason for considering the vegan lifestyle, 
-we can all do our part in improving the world we live in.  
+And if you need help in your transition, let me support you, just join my go vegan challange. 
 
 To see the live project [click here](https://nikkikobako.github.io/MS1-Go-Vegan/)
 
@@ -70,7 +67,13 @@ Since creating the wireframes, as part of testing I have amended to improve the 
 :house:[ Table of Content](#home)
 
 ## My Features <a name="features"></a>
-???? In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The project consists of four pages, displaying the home page on initial load.
+
+* Home page can be accessed via the logo in the header or via the navigation menu from any page
+* Why go vegan can be accessed via the text "Lets Go Vegan! for mobile view and "Lets Go Vegan Together" on tablet and large screen 
+as well as the navigation menu from any page
+* The Recipe page can be access via the navigation menu from any page
+* The Challange page can be accessed via the footer email icon on tablets and larger screens and via the navigation menu from any page
 
 ### Phase 1 Features <a name="phase1"></a>
 ????Feature 1 - allows users X to achieve Y, by having them fill out Z
