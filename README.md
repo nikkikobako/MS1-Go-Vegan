@@ -65,7 +65,7 @@ Since creating the wireframes, as part of testing I have amended to improve the 
 * For the tablet screen why go vegan page I have amended to the same as mobile 1 column width as the screen looked to crowded
 * For the XL screen on the why page I added collapsable buttons as the text was different sizes
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ## My Features <a name="features"></a>
 ???? In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -82,7 +82,7 @@ In addition, you may also use this section to discuss plans for additional featu
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ## Technologies Used <a name="technologies"></a>
 The project used a number of technologies to build the website
@@ -90,7 +90,7 @@ The project used a number of technologies to build the website
 * CSS
 * JQuery 
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ## Testing <a name="testing"></a>
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, 
@@ -129,7 +129,7 @@ In addition, you should mention in this section how your project looks and works
 
 ????If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ## My Contact Form
 My contact is via a challange form
@@ -146,21 +146,21 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ## Credits <a name="credits"></a>
 ?????Content
 
 For my layout I was inspired for the home page from a google search of images
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ### Media <a name="media"></a>
 The photos used in this site were obtained from pixabay, unsplash and pexels. Each photo has the origin in the title
 
 My logo was created using [Canva](https://www.canva.com/), I also used my logo for the favicon
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
 
 ## Acknowledgements <a name="acknowledgements"></a>
 I received inspiration for this project from Veganuary which is how I became vegan - [Veganuary](https://uk.veganuary.com/)
@@ -168,4 +168,4 @@ I received inspiration for this project from Veganuary which is how I became veg
 I have used google search to solve a number of issues, this included sites [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) 
 along with the slack community and my mentor
 
-[Table of Content](#home)
+:house:[ Table of Content](#home)
