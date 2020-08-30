@@ -76,7 +76,7 @@ as well as the navigation menu from any page
 * The Challenge page can be accessed via the footer email icon on tablets and larger screens and via the navigation menu from any page
 
 ### Phase 1 Features <a name="phase1"></a>
-????Feature 1 - allows users X to achieve Y, by having them fill out Z
+1. Allows users X to achieve Y, by having them fill out Z
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
@@ -84,8 +84,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Phase 2 Features Left to Implement <a name="phase2"></a>
 ?????Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
 
 :house:[ Table of Content](#home)
 
@@ -93,23 +92,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 The project used a number of technologies to build the website
 
-* HTML5
-* CSS
-* [GitPod](https://www.gitpod.io/)
-* [GitHub](https://github.com/)
-* [Bootstrap framwork including JQuery](https://getbootstrap.com/)
-* [FontAwesome](https://fontawesome.com/)
-* [Canva](https://www.canva.com/)
-* [TinyPNG](https://tinypng.com/)
-* [Google Font ](https://fonts.google.com/)
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* HTML5 - Used to design the basic view of my website, including the text on why to go vegan
+* CSS - Used to style the content into a user friendly version
+* [GitPod](https://www.gitpod.io/) - Used to write my html and CSS and to store my images, recipes, documentation and wireframes
+* [GitHub](https://github.com/) - Used to version control my website, store the commited code and deploy my website to live
+* [Bootstrap framwork including JQuery](https://getbootstrap.com/) - Used to help help ensure mbile first approach used and to style content for different media devices
+* [FontAwesome](https://fontawesome.com/) - Used for all my footer icons whic included my challenge link and  social media icons for YouTube, Twitter and Facebook
+* [Canva](https://www.canva.com/) - Used to create my logo and favicon
+* [TinyPNG](https://tinypng.com/) - Used to compress my pictures to ensure does not cause issues loading on different devices
+* [Google Font ](https://fonts.google.com/) - Used for all of the text fonts throughout my webpages
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for testing my HTML and CSS to ensure no errors
 
 
 
 :house:[ Table of Content](#home)
 
 ## Testing <a name="testing"></a>
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, 
+?????In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, 
 in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
 with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -146,11 +145,6 @@ In addition, you should mention in this section how your project looks and works
 ????If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 :house:[ Table of Content](#home)
-
-## My Contact Form
-My contact is via a challange form
-Go to the "Contact Us" page
-
 
 ## Deployment <a name="deployment"></a>
 
