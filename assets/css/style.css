@@ -120,6 +120,11 @@ h3 {
   z-index: 2;
 }
 
+#ready-btn:hover {
+  color:  #00867d;
+}
+
+
 #center-btn {
   display: flex;
   align-items: center;
@@ -236,6 +241,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+.why-text .btn:hover {
+  color:  #00867d;
+}
+
 .card-body {
   background-color: #c9c8c8;
   border-color: #c9c8c8;
@@ -344,6 +353,10 @@ h3 {
   border-radius: 25px;
   width: 15rem;
   margin-bottom: 2rem;
+}
+
+.signup-form .join-button:hover {
+     color:  #00867d;
 }
 
 /* --- Larger text for bigger screens */
