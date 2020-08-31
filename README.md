@@ -136,15 +136,17 @@ Testing has been completed using the following
         2. Warning for date not supported on old browser, left warning as recomendation is Pollyfill which requires coding
         3. I have 1 error I cannot fix as the drop down works in this format error is line 147 - The form attribute must refer to a form element
     5. style.css
+        1. warnings for border and color being the same but this is by design
+        2. warning for -webkit-background-size type code which is for older wensites
+
 2. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop :heavy_check_mark:
     1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it leads decided to remove only on the why page 
     and allow the So Why Go Vegan Header to display instead
-3. Check devtools 
+3. Check devtools for errors :heavy_check_mark:
     1. Warning showed no favicon on live site, fixed bug causing this
 4. Checked form to ensure warnings given if fields left empty :heavy_check_mark:
 5. Checked form email to ensure would not accept an invalid stype email :heavy_check_mark:
-
-
+6. Test the collapse function and button only appears on large screens, not mobile or tablet :heavy_check_mark:
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
