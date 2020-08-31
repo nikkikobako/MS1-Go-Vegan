@@ -323,7 +323,7 @@ h3 {
   font-size: 18px;
   text-align: center;
   background-color: rgba(190, 253, 221, 0.5);
-  border-color: #e57373;
+  border-color:  rgba(190, 253, 221, 0.5);
   border-radius: 17px;
 }
 
@@ -348,7 +348,7 @@ h3 {
   background-color: #e57373;
   border-color: #e57373;
   color: #00867d;
-  font-weight: bold;
+  font-weight: 900;
   border-radius: 25px;
   width: 15rem;
   margin-bottom: 2rem;
