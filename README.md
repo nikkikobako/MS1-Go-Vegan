@@ -64,6 +64,8 @@ Since creating the wireframes, as part of testing I have amended to improve the 
 * For all sizes for the why go vegan page I have removed the scroll option for the text as not a good UX experiance
 * For the tablet screen why go vegan page I have amended to the same as mobile 1 column width as the screen looked to crowded
 * For the XL screen on the why page I added collapsable buttons as the text was different sizes and the buttons give a uniform view
+* For the Why page the Lets Go Vegan Link was displaying, but as this is where it leads to decided to remove only on the why page 
+    and allow the So Why Go Vegan Header to display instead
 
 :house:[ Table of Content](#home)
 
@@ -119,8 +121,10 @@ Testing has been completed using the following
 4. Each HTML and CSS was ran through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no errors
 
 ### Tests completed <a name="testcomp"></a>
-1. 
-2. Check devtools and warning showed no favicon on live site
+1. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop
+    1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it leads decided to remove only on the why page 
+    and allow the So Why Go Vegan Header to display instead
+2. Check devtools and warning showed no favicon on live site, fixed bug causing this
 
 
 ????Try to submit the empty form and verify that an error message about the required fields appears
