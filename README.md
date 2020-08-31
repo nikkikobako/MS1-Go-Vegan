@@ -129,11 +129,13 @@ Testing has been completed using the following
 2. Checked form to ensure warnings given if fields left empty :heavy_check_mark:
 3. Loaded each page code individually to the W3C validators to ensure no errors :heavy_check_mark:
     1. index.html
-        1. Error from validator as used px with height in html, which is not required
+        1. Error from validator as used px with height in html, which is not required, removed px
+        2. warnings for the comment not liking the extra --- so removed
     2. whyvegan.html
         1. Error for the health text as used UL and needed to set the paragreaphs around the text not the UL
     3. food.html 
     4. challenge.html 
+        1. Error issue with label input
     5. style.css
 4. Check devtools 
     1. Warning showed no favicon on live site, fixed bug causing this
