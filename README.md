@@ -118,13 +118,25 @@ Testing has been completed using the following
     5. Microsoft surface Pro
     6. Browser Chrome
 3. The code was shared on [Slack](https://slack.com/intl/en-gb/) for testing by the CodeInstitute community
-4. Each HTML and CSS was ran through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no errors
+4. HTML was ran through [W3C Validation Service](https://validator.w3.org/) to ensure no errors
+5. CSS was ran through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no errors
+
 
 ### Tests completed <a name="testcomp"></a>
-1. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop
+1. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop :heavy_check_mark:
     1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it leads decided to remove only on the why page 
     and allow the So Why Go Vegan Header to display instead
-2. Check devtools and warning showed no favicon on live site, fixed bug causing this
+2. Checked form to ensure warnings given if fields left empty :heavy_check_mark:
+3. Loaded each page code individually to the W3C validators to ensure no errors :heavy_check_mark:
+    1. index.html
+        1. Error from validator as used px with height in html, which is not required
+    2. whyvegan.html
+    3. food.html 
+    4. challenge.html 
+    5. style.css
+4. Check devtools 
+    1. Warning showed no favicon on live site, fixed bug causing this
+
 
 
 ????Try to submit the empty form and verify that an error message about the required fields appears
