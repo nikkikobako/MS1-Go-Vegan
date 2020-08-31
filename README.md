@@ -120,6 +120,9 @@ Testing has been completed using the following
 
 ### Tests completed <a name="testcomp"></a>
 1. 
+2. Check devtools and warning showed no favicon on live site
+
+
 ????Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
