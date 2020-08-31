@@ -14,6 +14,7 @@
     2. [Phase 2 Features Left to Implement](#phase2)
 4. [Technologies](#technologies)    
 5. [Testing](#testing)
+    1. [Tests completed](#testcomp)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
     1. [Content](#content)
@@ -27,7 +28,7 @@ My project is to help people transition to vegan, it is to encourage someone to 
 If you are curious about what going Vegan means? Then my website will help with motivation and reasons why going vegan is the best choose you can make for 
 the animals, the planet and your health.
 
-And if you need help in your transition, let me support you, just join my go vegan challange. 
+If you need help in your transition, let me support you, just join my go vegan challange. 
 
 To see the live project [click here](https://nikkikobako.github.io/MS1-Go-Vegan/)
 
@@ -60,9 +61,9 @@ I used Balsamiq Wireframes to create my Wireframes. They include 4 mobile pages,
 #### Amendments to Wireframes
 Since creating the wireframes, as part of testing I have amended to improve the user experiance as follows
 * For the large screen recipe page I amended to have 2 recipes per row, as the page looked very empty
-* For all sizes for the why go vegan page I have renoved the scroll option for the text 
+* For all sizes for the why go vegan page I have removed the scroll option for the text as not a good UX experiance
 * For the tablet screen why go vegan page I have amended to the same as mobile 1 column width as the screen looked to crowded
-* For the XL screen on the why page I added collapsable buttons as the text was different sizes
+* For the XL screen on the why page I added collapsable buttons as the text was different sizes and the buttons give a uniform view
 
 :house:[ Table of Content](#home)
 
@@ -85,41 +86,25 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Phase 2 Features Left to Implement <a name="phase2"></a>
 ?????Another feature idea
 
-
 :house:[ Table of Content](#home)
 
 ## Technologies Used <a name="technologies"></a>
-
 The project used a number of technologies to build the website
 
 * HTML5 - Used to design the basic view of my website, including the text on why to go vegan
 * CSS - Used to style the content into a user friendly version
-* [GitPod](https://www.gitpod.io/) - Used to write my html and CSS and to store my images, recipes, documentation and wireframes
+* [GitPod](https://www.gitpod.io/) - Used to write my HTML and CSS and to store my images, recipes, documentation and wireframes
 * [GitHub](https://github.com/) - Used to version control my website, store the commited code and deploy my website to live
-* [Bootstrap framwork including JQuery](https://getbootstrap.com/) - Used to help help ensure mbile first approach used and to style content for different media devices
-* [FontAwesome](https://fontawesome.com/) - Used for all my footer icons whic included my challenge link and  social media icons for YouTube, Twitter and Facebook
+* [Bootstrap framwork including JQuery](https://getbootstrap.com/) - Used to help help ensure mobile first approach used and to style content for different media devices
+* [FontAwesome](https://fontawesome.com/) - Used for all my footer icons which included my challenge link and social media icons for YouTube, Twitter and Facebook
 * [Canva](https://www.canva.com/) - Used to create my logo and favicon
 * [TinyPNG](https://tinypng.com/) - Used to compress my pictures to ensure does not cause issues loading on different devices
 * [Google Font ](https://fonts.google.com/) - Used for all of the text fonts throughout my webpages
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for testing my HTML and CSS to ensure no errors
 
-
-
 :house:[ Table of Content](#home)
 
 ## Testing <a name="testing"></a>
-?????In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, 
-in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, 
-link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
-
-
-
 Testing has been completed using the following
 
 1. Initial testing was via gitpod and the developer tool inspect to show my pages as mobile, tablet and full screen
@@ -130,10 +115,10 @@ Testing has been completed using the following
     4. iMac desktop
     5. Microsoft surface Pro
     6. Browser Chrome
-3. The code was shared on Slack for testing by the community
-4. Each html and css was ran through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no errors
+3. The code was shared on [Slack](https://slack.com/intl/en-gb/) for testing by the CodeInstitute community
+4. Each HTML and CSS was ran through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no errors
 
-### Tests completed
+### Tests completed <a name="testcomp"></a>
 1. 
 ????Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
@@ -181,6 +166,7 @@ My logo was created using [Canva](https://www.canva.com/), I also used my logo f
 ### Refrences <a name="refrences"></a>
 I have used a number of references to useful people, sites and tools that can help someone go vegan. These sites are free and readily available
 for anyone to use.
+
 * [Earthling Ed](https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg)
 * [Mick the Vegan](https://www.youtube.com/channel/UCGJq0eQZoFSwgcqgxIE9MHw)
 * [Vegan Calculator](https://thevegancalculator.com/)
