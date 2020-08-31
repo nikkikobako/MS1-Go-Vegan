@@ -131,6 +131,7 @@ Testing has been completed using the following
     1. index.html
         1. Error from validator as used px with height in html, which is not required
     2. whyvegan.html
+        1. Error for the health text as used UL and needed to set the paragreaphs around the text not the UL
     3. food.html 
     4. challenge.html 
     5. style.css
