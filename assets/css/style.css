@@ -121,9 +121,8 @@ h3 {
 }
 
 #ready-btn:hover {
-  color:  #00867d;
+  color: #00867d;
 }
-
 
 #center-btn {
   display: flex;
@@ -230,7 +229,7 @@ h3 {
 
 .why-text .btn {
   padding: 0;
-  margin-top: 20px;;
+  margin-top: 20px;
   background-color: #e57373;
   border-color: #e57373;
   color: #3f3f3f;
@@ -242,7 +241,7 @@ h3 {
 }
 
 .why-text .btn:hover {
-  color:  #00867d;
+  color: #00867d;
 }
 
 .card-body {
@@ -323,19 +322,19 @@ h3 {
   font-weight: 900;
   font-size: 18px;
   text-align: center;
-  background-color: rgba(190, 253, 221, 0.3);
+  background-color: rgba(190, 253, 221, 0.5);
   border-color: #e57373;
   border-radius: 17px;
 }
 
 /* target the placeholder text */
 .text-input::placeholder {
-  color: #cfd8dc;
+  color: #00867d;
   font-weight: 900;
 }
 
 .support-option {
-  color: #cfd8dc;
+  color: #00867d;
   font-weight: 900;
 }
 
@@ -348,7 +347,7 @@ h3 {
 .signup-form .join-button {
   background-color: #e57373;
   border-color: #e57373;
-  color: #3f3f3f;
+  color: #00867d;
   font-weight: bold;
   border-radius: 25px;
   width: 15rem;
@@ -356,7 +355,7 @@ h3 {
 }
 
 .signup-form .join-button:hover {
-     color:  #00867d;
+  color: #3f3f3f;;
 }
 
 /* --- Larger text for bigger screens */
