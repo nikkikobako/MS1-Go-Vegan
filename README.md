@@ -40,7 +40,7 @@ For full UX document please see [MS1 UX Design Document](https://github.com/nikk
 ### Website Goals <a name="webgoal"></a>
 
 * An informative website to encourage people to transition to vegan
-* Easy to use to help, not hinder a transition
+* Easy to use to help, not hinder a transition to a vegan life
 * Ability to get in touch for more help
 
 
@@ -79,14 +79,19 @@ as well as the navigation menu from any page
 * The Challenge page can be accessed via the footer email icon on tablets and larger screens and via the navigation menu from any page
 
 ### Phase 1 Features <a name="phase1"></a>
-1. Allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+1. Home page gives a minimalist view with a small text area to catch the users attention
+2. The Why page has a lot of text which on mobile and tablet view is split into sections by the pictures this gives the user the reasons to become vegan
+3. The Why page for desktop is 3 sections and to give a consistant view has a button to collapse the main text to allow a clearer look
+4. The user can learn how to become vegan from the Why pages, the links on the page give a wealth of information
+4. The user can explore food choices on the recipe page to give ideas and inspiration of how tasty vegan food is
+5. The user can get help to transition by joining the challenge by signing up on the Challenge page
 
 ### Phase 2 Features Left to Implement <a name="phase2"></a>
-?????Another feature idea
+1. Form on the Challenge page to have code behind it to actually store the data
+2. New page on exactly how to transition to vegan
+3. Add additional useful applications and links, may have a separate page 
+4. Page for sanctuaries can visit in the North West of England and then in the rest of the UK 
+5. Page for a photo gallery of everything vegan
 
 :house:[ Table of Content](#home)
 
@@ -138,18 +143,16 @@ Testing has been completed using the following
     5. style.css
         1. warnings for border and color being the same but this is by design
         2. warning for -webkit-background-size type code which is for older wensites
-
-2. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop :heavy_check_mark:
-    1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it leads decided to remove only on the why page 
+2. Checked all links on the website pages to ensure work on mobile, tablet and desktop :heavy_check_mark:
+    1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it links to decided to remove from the why page 
     and allow the So Why Go Vegan Header to display instead
 3. Check devtools for errors :heavy_check_mark:
     1. Warning showed no favicon on live site, fixed bug causing this
 4. Checked form to ensure warnings given if fields left empty :heavy_check_mark:
 5. Checked form email to ensure would not accept an invalid stype email :heavy_check_mark:
 6. Test the collapse function and button only appears on large screens, not mobile or tablet :heavy_check_mark:
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
+7. Read all text to ensure makes sense and no spelling mistakes
+8. Test to ensure all media sizes work and changes as per the UX design
 
 :house:[ Table of Content](#home)
 
