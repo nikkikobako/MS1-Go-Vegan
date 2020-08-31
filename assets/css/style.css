@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap");
 
 /* ------------------------- Body --*/
 body {
@@ -321,9 +321,9 @@ h3 {
 
 .text-input {
   font-weight: 900;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
-  background-color: rgba(190, 253, 221, 0.2);
+  background-color: rgba(190, 253, 221, 0.3);
   border-color: #e57373;
   border-radius: 17px;
 }
@@ -337,6 +337,7 @@ h3 {
 .support-option {
   color: #cfd8dc;
   font-weight: 900;
+  
 }
 
 .comm-option {
