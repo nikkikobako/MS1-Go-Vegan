@@ -123,11 +123,8 @@ Testing has been completed using the following
 
 
 ### Tests completed <a name="testcomp"></a>
-1. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop :heavy_check_mark:
-    1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it leads decided to remove only on the why page 
-    and allow the So Why Go Vegan Header to display instead
-2. Checked form to ensure warnings given if fields left empty :heavy_check_mark:
-3. Loaded each page code individually to the W3C validators to ensure no errors :heavy_check_mark:
+
+1. Loaded each page code individually to the W3C validators to ensure no errors :heavy_check_mark:
     1. index.html
         1. Error from validator as used px with height in html, which is not required, removed px
         2. warnings for the comment not liking the extra --- so removed
@@ -135,21 +132,22 @@ Testing has been completed using the following
         1. Error for the health text as used UL and needed to set the paragreaphs around the text not the UL
     3. food.html 
     4. challenge.html 
-        1. Error issue with label input
+        1. Error issue with label input for the form, added id
+        2. Warning for date not supported on old browser, left warning as recomendation is Pollyfill which requires coding
+        3. I have 1 error I cannot fix as the drop down works in this format error is line 147 - The form attribute must refer to a form element
     5. style.css
-4. Check devtools 
+2. Checked all links on the website pages to ensure all links work on mobile, tablet and desktop :heavy_check_mark:
+    1. Noticed the Lets Go Vegan Link was also on the why page, as this is where it leads decided to remove only on the why page 
+    and allow the So Why Go Vegan Header to display instead
+3. Check devtools 
     1. Warning showed no favicon on live site, fixed bug causing this
+4. Checked form to ensure warnings given if fields left empty :heavy_check_mark:
+5. Checked form email to ensure would not accept an invalid stype email :heavy_check_mark:
 
 
 
-????Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-????You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-????If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 :house:[ Table of Content](#home)
 
