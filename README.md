@@ -157,8 +157,9 @@ Testing has been completed using the following
 6. Test the collapse function and button only appears on large screens, not mobile or tablet :heavy_check_mark:
 7. Read all text to ensure makes sense and no spelling mistakes
 8. Test to ensure all media sizes work and changes as per the UX design
-9. Tested on Chrome browser
-10. Tested on Firefox browser 
+9. Tested on Chrome browser :heavy_check_mark:
+10. Tested on Firefox browser :heavy_check_mark:
+11. Spell check all text using Word :heavy_check_mark:
 
 
 :house:[ Table of Contents](#home)
