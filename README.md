@@ -19,7 +19,7 @@
 7. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
-    3. [References](#refrences)
+    3. [References](#references)
 9. [Acknowledgements](#acknowledgements)
 
 ## Introductions to my Project <a name="introduction"></a>
@@ -103,7 +103,8 @@ The project used a number of technologies to build the website
 * CSS - Used to style the content into a user friendly version
 * [GitPod](https://www.gitpod.io/) - Used to write my HTML and CSS and to store my images, recipes, documentation and wireframes
 * [GitHub](https://github.com/) - Used to version control my website, store the committed code and deploy my website to live
-* [Bootstrap framwork including JQuery](https://getbootstrap.com/) - Used to provide mobile first approach and to style content for different media devices
+* [Bootstrap framwork including](https://getbootstrap.com/) - Used to provide mobile first approach and to style content for different media devices
+* [JQuery]
 * [FontAwesome](https://fontawesome.com/) - Used for all my footer icons which included my challenge link and social media icons for YouTube, Twitter and Facebook
 * [Canva](https://www.canva.com/) - Used to create my logo and favicon
 * [TinyPNG](https://tinypng.com/) - Used to compress my pictures to ensure does not cause issues loading on different devices
@@ -189,14 +190,14 @@ The entire site is fictional and created by myself
 
 ### Media <a name="media"></a>
 The photos used in this site were obtained from [pixabay](https://pixabay.com/?rf=jimdo), [Unsplash](https://unsplash.com/),
-[Pexels](https://www.pexels.com/)] and google search images.
+[Pexels](https://www.pexels.com/) and google search images.
 Each photo has the origin in the title to show where it was obtained from.
 
 My logo was created using [Canva](https://www.canva.com/), I also used my logo for the favicon
 
 :house:[ Table of Contents](#home)
 
-### Refrences <a name="refrences"></a>
+### References <a name="references"></a>
 I have used a number of references to useful people, sites and tools that can help someone go vegan. These sites are free and readily available
 for anyone to use.
 
