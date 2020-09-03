@@ -289,7 +289,6 @@ h3 {
   width: 100%;
   font-size: 1rem;
   color: #3f3f3f;
-  margin-bottom: 2rem;
 }
 
 .recipe-row p {
@@ -300,10 +299,19 @@ h3 {
 }
 
 .food-pic {
+  padding-top: 1rem;
   padding-bottom: 2rem;
   height: 20rem;
   width: 100%;
   border: 1rem;
+}
+
+.recipe-card {
+  background-color: #f8f8ff;
+  border: 2px solid #3f3f3f;
+  box-shadow: 5px 10px grey;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 /* --- Challange Form Page  */
