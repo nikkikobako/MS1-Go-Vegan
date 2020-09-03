@@ -70,9 +70,9 @@ h3 {
 
 /* large screen */
 @media screen and (min-width: 1700px) {
-    .navbar {
-  font-size: 2rem;
-}
+  .navbar {
+    font-size: 2rem;
+  }
 }
 
 /* --- Home Page  */
@@ -119,6 +119,7 @@ h3 {
   background-color: #e57373;
   border-color: #e57373;
   margin: 0;
+  margin-bottom: 15px;
   padding: 0;
   width: 80%;
   min-height: 4vmin;
@@ -234,7 +235,7 @@ h3 {
 }
 
 .why-initial {
-    min-height: 100px;
+  min-height: 100px;
 }
 
 .why-text li {
@@ -337,14 +338,14 @@ h3 {
   font-weight: 900;
   font-size: 18px;
   text-align: center;
-  background-color:rgba(255, 164, 162, 0.7);
-  border-color:  rgba(255, 164, 162, 0.7);
+  background-color: rgba(255, 164, 162, 0.7);
+  border-color: rgba(255, 164, 162, 0.7);
   border-radius: 17px;
 }
 
 /* target the placeholder text */
 .text-input::placeholder {
-  color: #e0e9e8; 
+  color: #e0e9e8;
   font-weight: 900;
 }
 
