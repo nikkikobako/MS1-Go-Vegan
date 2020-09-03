@@ -321,7 +321,7 @@ h3 {
 }
 
 .signup-form h2 {
-  color: #e57373;
+  color: #af4448;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -330,32 +330,34 @@ h3 {
   font-weight: 900;
   font-size: 18px;
   text-align: center;
-  background-color: rgba(190, 253, 221, 0.5);
-  border-color:  rgba(190, 253, 221, 0.5);
+  background-color:rgba(255, 164, 162, 0.7);
+  border-color:  rgba(255, 164, 162, 0.7);
   border-radius: 17px;
 }
 
 /* target the placeholder text */
 .text-input::placeholder {
-  color: #00867d;
+  color: #e0e9e8; 
   font-weight: 900;
 }
 
 .support-option {
-  color: #00867d;
+  color: #e0e9e8;
   font-weight: 900;
+  padding-left: 10px;
+  padding-right: 3px;
 }
 
 .comm-option {
-  color: #e57373;
+  color: #af4448;
   font-size: 1.5rem;
   font-weight: 900;
 }
 
 .signup-form .join-button {
-  background-color: #e57373;
-  border-color: #e57373;
-  color: #00867d;
+  background-color: #af4448;
+  border-color: #af4448;
+  color: #ffa4a2;
   font-weight: 900;
   border-radius: 25px;
   width: 15rem;
@@ -385,7 +387,7 @@ h3 {
 @media screen and (min-width: 1024px) {
   .text-input,
   .join-button {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .signup-form {
