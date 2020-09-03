@@ -15,6 +15,7 @@
 4. [Technologies](#technologies)    
 5. [Testing](#testing)
     1. [Tests completed](#testcomp)
+    2. [Bugs Fixed](#bugs)
 6. [Deployment](#deployment)
 7. [Credits](#credits)
     1. [Content](#content)
@@ -163,6 +164,14 @@ Testing has been completed using the following
 9. Tested on Chrome browser :heavy_check_mark:
 10. Tested on Firefox browser :heavy_check_mark:
 11. Spell check all text using Word :heavy_check_mark:
+
+### Bugs Fixed <a name="bugs"></a>
+Most bugs in my code where simple to fix however the following where a little unusual 
+* The challenge form did not show the dd/mm/yyyy for the date format on my mobile or tablet even though in the developement tools it did display. 
+    My mentor helped and found an article which I used to fix the issue
+* The recipe page linked to the PDF's for each recipe in the developer tool but when the site was deployed it did not work, slack helped me pinpoint a location
+    issue 
+* 
 
 
 :house:[ Table of Contents](#home)
