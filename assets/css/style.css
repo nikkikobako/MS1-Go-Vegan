@@ -271,12 +271,13 @@ h3 {
 
 .why-text .btn:hover {
   color: #e0e9e8;
+  border-color: #e0e9e8;
 }
 
 .card-body {
-  background-color: #f8f8ff;
-  border-color: #3f3f3f;
- }
+  background-color: #ecfffd;
+  border-color: #ecfffd;
+}
 
 /* --- Recipe Main Body  */
 

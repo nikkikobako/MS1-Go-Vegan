@@ -171,8 +171,6 @@ Most bugs in my code where simple to fix however the following where a little un
     My mentor helped and found an article which I used to fix the issue
 * The recipe page linked to the PDF's for each recipe in the developer tool but when the site was deployed it did not work, slack helped me pinpoint a location
     issue 
-* 
-
 
 :house:[ Table of Contents](#home)
 

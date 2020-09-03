@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Why | Lets Go Vegan</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/favicon.png"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<title>Why | Lets Go Vegan</title>
-	<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
-</head>
-
-<body>
-	<!-- Header Section including logo and Navigation -->
-	<header class="container-fluid">
-		<nav class="navbar navbar-expand-sm navbar-light">
-			<a class="navbar-brand mr-auto" href="index.html">
-				<img
+  <body>
+    <!-- Header Section including logo and Navigation -->
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand mr-auto" href="index.html">
+          <img
             src="assets/images/vegan-logo.png"
             alt="vegan logo"
             height="75"
             width="75"
           />
         </a>
-				<button
+        <button
           class="navbar-toggler btn btn-secondary"
           type="button"
           data-toggle="collapse"
@@ -36,50 +46,53 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-				<div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home </a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="why-vegan.html">Why </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="food.html">Recipes </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="challenge.html">Challenge </a>
-						</li>
-					</ul>
-				</div>
-		</nav>
-	</header>
-	<!-- Main section - middle of page -->
-	<section class="container-fluid">
-		<div class="row no-gutters">
-			<div class="col-12">
-				<h1 id="why-h1">So Why Go Vegan?</h1>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-xl-4">
-				<!-- For the Animals -->
-				<div class="d-flex flex-column">
-					<div class="why-pictures" id="fox-pic"></div>
-					<div class="py-2">
-						<h3>For the Animals</h3>
-					</div>
-					<div class="py-2 why-text">
-						<p class="why-initial">
-							Let me ask you a simple question: why do we eat a pig but love a
-							dog?
-							<br />
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarToggler"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="why-vegan.html">Why </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Recipes </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="challenge.html">Challenge </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Main section - middle of page -->
+    <section class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <h1 id="why-h1">So Why Go Vegan?</h1>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-xl-4">
+          <!-- For the Animals -->
+          <div class="d-flex flex-column">
+            <div class="why-pictures" id="fox-pic"></div>
+            <div class="py-2">
+              <h3>For the Animals</h3>
+            </div>
+            <div class="py-2 why-text">
+              <p class="why-initial">
+                Let me ask you a simple question: why do we eat a pig but love a
+                dog?
+                <br />
                 What makes a horse a pet yet sheep are a commodity?
               </p>
-							<hr />
-							<!-- Add a button to collapse the text for x-large only-->
-							<p class="d-none d-xl-block">
-								<button
+              <hr />
+              <!-- Add a button to collapse the text for x-large only-->
+              <p class="d-none d-xl-block">
+                <button
                   class="btn"
                   type="button"
                   data-toggle="collapse"
@@ -89,100 +102,116 @@
                 >
                   Vegan for the Animals
                 </button>
-							</p>
+              </p>
 
-							<!-- collapse text only shows if button avaialble so x-large only-->
-							<div class="collapse" id="collapseanimal">
-								<div class="card card-body">
-									Animals are sentient beings, they feel joy and pain, they
-									protect their young and feel loss when their babies are taken
-									away from them. We will spend all our money on making our pets
-									comfortable and we are outraged when anyone hurts a pet, yet
-									research has shown that a pig is more intelligent than a dog,
-									and a cow will call for her baby and search for days, when
-									it's taken away from her.
-									<br />
-									<br />
+              <!-- collapse text only shows if button avaialble so x-large only-->
+              <div class="collapse" id="collapseanimal">
+                <div class="card card-body">
+                  Animals are sentient beings, they feel joy and pain, they
+                  protect their young and feel loss when their babies are taken
+                  away from them. We will spend all our money on making our pets
+                  comfortable and we are outraged when anyone hurts a pet, yet
+                  research has shown that a pig is more intelligent than a dog,
+                  and a cow will call for her baby and search for days, when
+                  it's taken away from her.
+                  <br />
+                  <br />
                   The animal industry, through advertising, makes us think that
                   the animals are happy, but many live a short and miserable
                   life. They are bred to be too big, to lay more eggs, to
                   produce more milk, all of this is detrimental to the animals
                   health.
-									<br />
-									<br />
+                  <br />
+                  <br />
                   Many people say our animals are killed humanely, yet my
                   personal response is “ if a serial killer gives you for
                   example a drug, to kill you, do we as a society really think
                   that would be ok? We are not feeling pain? So can they kill us
                   because they feel a physiological need to kill?”
-									<br />
-									<br />
+                  <br />
+                  <br />
                   If you would like to do some of your own research, I love
                   these 2 guys for their calm approach and their message and
                   debunking of many of the industry's myths.
-									<a href="https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg" target="_blank"
-										rel="noopener"><span class="sr-only">Earthling Ed</span>Earthling Ed</a>
-									and
-									<a href="https://www.youtube.com/channel/UCGJq0eQZoFSwgcqgxIE9MHw" target="_blank"
-										rel="noopener"><span class="sr-only">Mick the Vegan</span>Mick the
-										Vegan</a>
-									<br />
+                  <a
+                    href="https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg"
+                    target="_blank"
+                    rel="noopener"
+                    ><span class="sr-only">Earthling Ed</span>Earthling Ed</a
+                  >
+                  and
+                  <a
+                    href="https://www.youtube.com/channel/UCGJq0eQZoFSwgcqgxIE9MHw"
+                    target="_blank"
+                    rel="noopener"
+                    ><span class="sr-only">Mick the Vegan</span>Mick the
+                    Vegan</a
+                  >
+                  <br />
                 </div>
-								</div>
-								<!-- text not collapsed for all except x-large only-->
-								<div class="d-xl-none">
-									Animals are sentient beings, they feel joy and pain, they
-									protect their young and feel loss when their babies are taken
-									away from them. We will spend all our money on making our pets
-									comfortable and we are outraged when anyone hurts a pet, yet
-									research has shown that a pig is more intelligent than a dog,
-									and a cow will call for her baby and search for days, when it's
-									taken away from her.
-									<br />
-									<br />
+              </div>
+              <!-- text not collapsed for all except x-large only-->
+              <div class="d-xl-none">
+                Animals are sentient beings, they feel joy and pain, they
+                protect their young and feel loss when their babies are taken
+                away from them. We will spend all our money on making our pets
+                comfortable and we are outraged when anyone hurts a pet, yet
+                research has shown that a pig is more intelligent than a dog,
+                and a cow will call for her baby and search for days, when it's
+                taken away from her.
+                <br />
+                <br />
                 The animal industry, through advertising, makes us think that
                 the animals are happy, but many live a short and miserable life.
                 They are bred to be too big, to lay more eggs, to produce more
                 milk, all of this is detrimental to the animals health.
-									<br />
-									<br />
+                <br />
+                <br />
                 Many people say our animals are killed humanely, yet my personal
                 response is “ if a serial killer gives you for example a drug,
                 to kill you, do we as a society really think that would be ok?
                 We are not feeling pain? So can they kill us because they feel a
                 physiological need to kill?”
-									<br />
-									<br />
+                <br />
+                <br />
                 If you would like to do some of your own research, I love these
                 2 guys for their calm approach and their message and debunking
-                of many of the industry's myths. <a href="https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg"
-										target="_blank"><span class="sr-only">Earthling Ed</span>Earthling Ed</a> and
-									<a href="https://www.youtube.com/channel/UCGJq0eQZoFSwgcqgxIE9MHw"
-										target="_blank"><span class="sr-only">Mick the Vegan</span>Mick the Vegan</a>
-									<br />
+                of many of the industry's myths.
+                <a
+                  href="https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg"
+                  target="_blank"
+                  ><span class="sr-only">Earthling Ed</span>Earthling Ed</a
+                >
+                and
+                <a
+                  href="https://www.youtube.com/channel/UCGJq0eQZoFSwgcqgxIE9MHw"
+                  target="_blank"
+                  ><span class="sr-only">Mick the Vegan</span>Mick the Vegan</a
+                >
+                <br />
               </div>
-								</div>
-							</div>
-					</div>
-					<div class="col-xl-4">
-						<!-- For the Planet -->
-						<div class="d-flex flex-column">
-							<div class="why-pictures" id="nature-pic"></div>
-							<div class="py-2">
-								<h3>For the Planet</h3>
-							</div>
-							<div class="py-2 why-text">
-								<p class="why-initial">
-									We are slowly killing our planet, from global warming to
-									polluting our oceans.
-									<br />
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <!-- For the Planet -->
+          <div class="d-flex flex-column">
+            <div class="why-pictures" id="nature-pic"></div>
+            <div class="py-2">
+              <h3>For the Planet</h3>
+            </div>
+            <div class="py-2 why-text">
+              <p class="why-initial">
+                We are slowly killing our planet, from global warming to
+                polluting our oceans.
+                <br />
                 The headlines are stark yet can we as an individual make any
                 difference?
               </p>
-									<hr />
-									<!-- Add a button to collapse the text for x-large only-->
-									<p class="d-none d-xl-block">
-										<button
+              <hr />
+              <!-- Add a button to collapse the text for x-large only-->
+              <p class="d-none d-xl-block">
+                <button
                   class="btn"
                   type="button"
                   data-toggle="collapse"
@@ -192,89 +221,91 @@
                 >
                   Vegan for the Planet
                 </button>
-									</p>
-									<!-- collapse text only shows if button avaialble so x-large only-->
-									<div class="collapse" id="collapseplanet">
-										<div class="card card-body">
-											<p>
-												The answer is yes, going vegan has one of the biggest
-												impacts on our environment. Animal agriculture requires vast
-												amounts of water, it pollutes our land and causes vast areas
-												of our amazon deforestation.
-												<br />
-												<br />
+              </p>
+              <!-- collapse text only shows if button avaialble so x-large only-->
+              <div class="collapse" id="collapseplanet">
+                <div class="card card-body">
+                  <p>
+                    The answer is yes, going vegan has one of the biggest
+                    impacts on our environment. Animal agriculture requires vast
+                    amounts of water, it pollutes our land and causes vast areas
+                    of our amazon deforestation.
+                    <br />
+                    <br />
                     Did you know the global average water footprint – or the
                     total amount of water needed – to produce one pound of beef
                     is 1,799 gallons of water; one pound of pork takes 576
                     gallons of water. As a comparison, the water footprint of
                     soybeans is 216 gallons; corn is 108 gallons.
-												<br />
-												<br />
+                    <br />
+                    <br />
                     Did you know that most soya produced is actually to feed the
                     animals people eat, and if we stopped eating meat, the soya
                     alone would feed the world, although this would be a very
                     boring diet!!!!
-												<br />
-												<br />
+                    <br />
+                    <br />
                     There are many ways we can protect our planet with going
                     vegan is a big first step, try this calculator to see how
                     you could help our planet
-												<a href="https://thevegancalculator.com/"
-													target="_blank"><span class="sr-only">Vegan Calculator</span>Vegan
-													Calculator</a>
-											</p>
-										</div>
-									</div>
-									<!-- text not collapsed for all except x-large only-->
-									<div class="d-xl-none">
-										<p>
-											The answer is yes, going vegan has one of the biggest impacts
-											on our environment. Animal agriculture requires vast amounts
-											of water, it pollutes our land and causes vast areas of our
-											amazon deforestation.
-											<br />
-											<br />
+                    <a href="https://thevegancalculator.com/" target="_blank"
+                      ><span class="sr-only">Vegan Calculator</span>Vegan
+                      Calculator</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <!-- text not collapsed for all except x-large only-->
+              <div class="d-xl-none">
+                <p>
+                  The answer is yes, going vegan has one of the biggest impacts
+                  on our environment. Animal agriculture requires vast amounts
+                  of water, it pollutes our land and causes vast areas of our
+                  amazon deforestation.
+                  <br />
+                  <br />
                   Did you know the global average water footprint – or the total
                   amount of water needed – to produce one pound of beef is 1,799
                   gallons of water; one pound of pork takes 576 gallons of
                   water. As a comparison, the water footprint of soybeans is 216
                   gallons; corn is 108 gallons.
-											<br />
-											<br />
+                  <br />
+                  <br />
                   Did you know that most soya produced is actually to feed the
                   animals people eat, and if we stopped eating meat, the soya
                   alone would feed the world, although this would be a very
                   boring diet!!!!
-											<br />
-											<br />
+                  <br />
+                  <br />
                   There are many ways we can protect our planet with going vegan
                   is a big first step, try this calculator to see how you could
                   help our planet
-											<a href="https://thevegancalculator.com/"
-												target="_blank"><span class="sr-only">Vegan Calculator</span>Vegan
-												Calculator</a>
-										</p>
-									</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4">
-						<!-- For your health -->
-						<div class="d-flex flex-column">
-							<div class="why-pictures" id="rainbow-pic"></div>
-							<div class="py-2">
-								<h3>For your Health</h3>
-							</div>
-							<div class="py-2 why-text">
-								<p class="why-initial">
-									Did you know that meat is classed by the world health
-									organisation (WHO) as a carcinogenic? Yet plants have been shown
-									to have many healing properties.
-								</p>
-								<hr />
-								<!-- Add a button to collapse the text for x-large only-->
-								<p class="d-none d-xl-block">
-									<button
+                  <a href="https://thevegancalculator.com/" target="_blank"
+                    ><span class="sr-only">Vegan Calculator</span>Vegan
+                    Calculator</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <!-- For your health -->
+          <div class="d-flex flex-column">
+            <div class="why-pictures" id="rainbow-pic"></div>
+            <div class="py-2">
+              <h3>For your Health</h3>
+            </div>
+            <div class="py-2 why-text">
+              <p class="why-initial">
+                Did you know that meat is classed by the world health
+                organisation (WHO) as a carcinogenic? Yet plants have been shown
+                to have many healing properties.
+              </p>
+              <hr />
+              <!-- Add a button to collapse the text for x-large only-->
+              <p class="d-none d-xl-block">
+                <button
                   class="btn"
                   type="button"
                   data-toggle="collapse"
@@ -284,200 +315,228 @@
                 >
                   Vegan for your Health
                 </button>
-								</p>
-								<!-- collapse text only shows if button avaialble so x-large only-->
-								<div class="collapse" id="collapsehealth">
-									<div class="card card-body">
-										<p>
-											Processed meat is currently classed as a class 1
-											carcinogenic, alongside cigarettes and asbestos. Class 1
-											means there is strong evidence it causes cancer, red meats
-											are a class 2A, which means they are probable to cause
-											cancer.
-											<br />
+              </p>
+              <!-- collapse text only shows if button avaialble so x-large only-->
+              <div class="collapse" id="collapsehealth">
+                <div class="card card-body">
+                  <p>
+                    Processed meat is currently classed as a class 1
+                    carcinogenic, alongside cigarettes and asbestos. Class 1
+                    means there is strong evidence it causes cancer, red meats
+                    are a class 2A, which means they are probable to cause
+                    cancer.
+                    <br />
                     But what about milk? Surely we get our calcium from milk,
                     that is what all the adverts years ago told us? But did you
                     know that the latest studies show that milk can actually
                     pull calcium from your bones?
-											<br />
+                    <br />
                     You can get your calcium from plants:
                   </p>
-											<ul>
-												<li>
-													Green, leafy vegetables – such as broccoli, cabbage and
-													okra, but not spinach
-												</li>
-												<li>Fortified unsweetened soya, rice and oat drinks</li>
-												<li>Calcium-set tofu</li>
-												<li>Sesame seeds and tahini</li>
-												<li>Pulses</li>
-												<li>
-													Brown and white bread (in the UK, calcium is added to
-													white and brown flour by law)
-												</li>
-												<li>
-													Dried fruit, such as raisins, prunes, figs and dried
-													apricots
-												</li>
-											</ul>
-											<p>
-												And for omega 3 we can leave the fish to swim in our oceans
-												and eat any of the following:
-											</p>
-											<ul>
-												<li>
-													Chia seeds
-												</li>
-												<li>Brussels sprouts</li>
-												<li>Algal oil</li>
-												<li>Hemp seed</li>
-												<li>Walnuts</li>
-												<li>Flaxseeds</li>
-												<li>Perilla oil</li>
-											</ul>
-											<p>
-												Studies are showing that following a healthy plant based
-												lifestyle may help lower blood pressure, keep your heart
-												healthy, prevent type 2 diabetes, reduce medications if
-												already type 2 diabetic, help you lose weight, reduce your
-												risk of cancer and even help you live longer, all from
-												following a full plant based diet.
-												<br />
+                  <ul>
+                    <li>
+                      Green, leafy vegetables – such as broccoli, cabbage and
+                      okra, but not spinach
+                    </li>
+                    <li>Fortified unsweetened soya, rice and oat drinks</li>
+                    <li>Calcium-set tofu</li>
+                    <li>Sesame seeds and tahini</li>
+                    <li>Pulses</li>
+                    <li>
+                      Brown and white bread (in the UK, calcium is added to
+                      white and brown flour by law)
+                    </li>
+                    <li>
+                      Dried fruit, such as raisins, prunes, figs and dried
+                      apricots
+                    </li>
+                  </ul>
+                  <p>
+                    And for omega 3 we can leave the fish to swim in our oceans
+                    and eat any of the following:
+                  </p>
+                  <ul>
+                    <li>
+                      Chia seeds
+                    </li>
+                    <li>Brussels sprouts</li>
+                    <li>Algal oil</li>
+                    <li>Hemp seed</li>
+                    <li>Walnuts</li>
+                    <li>Flaxseeds</li>
+                    <li>Perilla oil</li>
+                  </ul>
+                  <p>
+                    Studies are showing that following a healthy plant based
+                    lifestyle may help lower blood pressure, keep your heart
+                    healthy, prevent type 2 diabetes, reduce medications if
+                    already type 2 diabetic, help you lose weight, reduce your
+                    risk of cancer and even help you live longer, all from
+                    following a full plant based diet.
+                    <br />
                     There are many advocates of a vegan lifestyle but if health
                     is your driving notice check out these sites
-												<a href="https://nutritionfacts.org/" target="_blank"
-													rel="noopener"><span class="sr-only">Dr Michael Greger</span>Dr
-													Michael
-													Greger</a>
-												and
-												<a href="https://www.pcrm.org/yourbodyinbalance" target="_blank"
-													rel="noopener"><span class="sr-only">Dr Neal Barnard</span>Dr Neal
-													Barnard</a>, they are a wealth of information from where you can get
-												all your nutrients from to the latest research on how a
-												plant based diet can improve your health
-												<br />
-												<small
+                    <a
+                      href="https://nutritionfacts.org/"
+                      target="_blank"
+                      rel="noopener"
+                      ><span class="sr-only">Dr Michael Greger</span>Dr Michael
+                      Greger</a
+                    >
+                    and
+                    <a
+                      href="https://www.pcrm.org/yourbodyinbalance"
+                      target="_blank"
+                      rel="noopener"
+                      ><span class="sr-only">Dr Neal Barnard</span>Dr Neal
+                      Barnard</a
+                    >, they are a wealth of information from where you can get
+                    all your nutrients from, to the latest research on how a
+                    plant based diet can improve your health
+                    <br />
+                    <small
                       >Please note that although vitamin B12 can be found in
                       nutritional yeast it is advised that you take a vitamin
-                      B12 supplement to ensure optimal health</small>
-											</p>
-									</div>
-								</div>
-								<!-- text not collapsed for all except x-large only-->
-								<div class="d-xl-none">
-									<p>
-										Processed meat is currently classed as a class 1 carcinogenic,
-										alongside cigarettes and asbestos. Class 1 means there is
-										strong evidence it causes cancer, red meats are a class 2A,
-										which means they are probable to cause cancer.
-										<br />
+                      B12 supplement to ensure optimal health</small
+                    >
+                  </p>
+                </div>
+              </div>
+              <!-- text not collapsed for all except x-large only-->
+              <div class="d-xl-none">
+                <p>
+                  Processed meat is currently classed as a class 1 carcinogenic,
+                  alongside cigarettes and asbestos. Class 1 means there is
+                  strong evidence it causes cancer, red meats are a class 2A,
+                  which means they are probable to cause cancer.
+                  <br />
                   But what about milk? Surely we get our calcium from milk, that
                   is what all the adverts years ago told us? But did you know
                   that the latest studies show that milk can actually pull
                   calcium from your bones?
-										<br />
+                  <br />
                   You can get your calcium from plants:
                 </p>
-										<ul>
-											<li>
-												Green, leafy vegetables – such as broccoli, cabbage and
-												okra, but not spinach
-											</li>
-											<li>Fortified unsweetened soya, rice and oat drinks</li>
-											<li>Calcium-set tofu</li>
-											<li>Sesame seeds and tahini</li>
-											<li>Pulses</li>
-											<li>
-												Brown and white bread (in the UK, calcium is added to white
-												and brown flour by law)
-											</li>
-											<li>
-												Dried fruit, such as raisins, prunes, figs and dried
-												apricots
-											</li>
-										</ul>
-										<p>
-											And for omega 3 we can leave the fish to swim in our oceans
-											and eat any of the following:
-										</p>
-										<ul>
-											<li>
-												Chia seeds
-											</li>
-											<li>Brussels sprouts</li>
-											<li>Algal oil</li>
-											<li>Hemp seed</li>
-											<li>Walnuts</li>
-											<li>Flaxseeds</li>
-											<li>Perilla oil</li>
-										</ul>
-										<p>
-											Studies are showing that following a healthy plant based
-											lifestyle may help lower blood pressure, keep your heart
-											healthy, prevent type 2 diabetes, reduce medications if
-											already type 2 diabetic, help you lose weight, reduce your
-											risk of cancer and even help you live longer, all from
-											following a full plant based diet.
-											<br />
+                <ul>
+                  <li>
+                    Green, leafy vegetables – such as broccoli, cabbage and
+                    okra, but not spinach
+                  </li>
+                  <li>Fortified unsweetened soya, rice and oat drinks</li>
+                  <li>Calcium-set tofu</li>
+                  <li>Sesame seeds and tahini</li>
+                  <li>Pulses</li>
+                  <li>
+                    Brown and white bread (in the UK, calcium is added to white
+                    and brown flour by law)
+                  </li>
+                  <li>
+                    Dried fruit, such as raisins, prunes, figs and dried
+                    apricots
+                  </li>
+                </ul>
+                <p>
+                  And for omega 3 we can leave the fish to swim in our oceans
+                  and eat any of the following:
+                </p>
+                <ul>
+                  <li>
+                    Chia seeds
+                  </li>
+                  <li>Brussels sprouts</li>
+                  <li>Algal oil</li>
+                  <li>Hemp seed</li>
+                  <li>Walnuts</li>
+                  <li>Flaxseeds</li>
+                  <li>Perilla oil</li>
+                </ul>
+                <p>
+                  Studies are showing that following a healthy plant based
+                  lifestyle may help lower blood pressure, keep your heart
+                  healthy, prevent type 2 diabetes, reduce medications if
+                  already type 2 diabetic, help you lose weight, reduce your
+                  risk of cancer and even help you live longer, all from
+                  following a full plant based diet.
+                  <br />
                   There are many advocates of a vegan lifestyle but if health is
                   your driving notice check out these sites
-											<a href="https://nutritionfacts.org/" target="_blank"
-												rel="noopener"><span class="sr-only">Dr Michael Greger</span>Dr Michael
-												Greger</a>
-											and
-											<a href="https://www.pcrm.org/yourbodyinbalance" target="_blank"
-												rel="noopener"><span class="sr-only">Dr Neal Barnard</span>Dr Neal
-												Barnard</a>
-											, they are a wealth of information from where you can get all
-											your nutrients from to the latest research on how a plant
-											based diet can improve your health
-											<br />
-											<small
+                  <a
+                    href="https://nutritionfacts.org/"
+                    target="_blank"
+                    rel="noopener"
+                    ><span class="sr-only">Dr Michael Greger</span>Dr Michael
+                    Greger</a
+                  >
+                  and
+                  <a
+                    href="https://www.pcrm.org/yourbodyinbalance"
+                    target="_blank"
+                    rel="noopener"
+                    ><span class="sr-only">Dr Neal Barnard</span>Dr Neal
+                    Barnard</a
+                  >
+                  , they are a wealth of information from where you can get all
+                  your nutrients from, to the latest research on how a plant
+                  based diet can improve your health
+                  <br />
+                  <small
                     >Please note that although vitamin B12 can be found in
                     nutritional yeast it is advised that you take a vitamin B12
-                    supplement to ensure optimal health</small>
-										</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-	</section>
-	<!-- Footer Section -->
-	<footer class="container-fluid">
-		<div class="row footer-row">
-			<div class="col-sm-1 col-md-6 d-none d-sm-block social-links d-md-flex justify-content-start">
-				<a href="challenge.html"><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
-					<span class="sr-only">Challange</span></a>
-			</div>
+                    supplement to ensure optimal health</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="container-fluid">
+      <div class="row footer-row">
+        <div
+          class="col-sm-1 col-md-6 d-none d-sm-block social-links d-md-flex justify-content-start"
+        >
+          <a href="challenge.html"
+            ><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
+            <span class="sr-only">Challange</span></a
+          >
+        </div>
 
-			<div class="col-sm-3 col-md-6 d-md-flex justify-content-end">
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a href="https://m.youtube.com/playlist?list=PL3D58119F10C2B9A2"
-							target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>
-							<span class="sr-only">YouTube</span></a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://twitter.com/twitter"
-							target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span></a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://www.facebook.com/facebook"
-							target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+        <div class="col-sm-3 col-md-6 d-md-flex justify-content-end">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a
+                href="https://m.youtube.com/playlist?list=PL3D58119F10C2B9A2"
+                target="_blank"
+                ><i class="fa fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">YouTube</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/twitter" target="_blank"
+                ><i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/facebook" target="_blank"
+                ><i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-	<!-- Required for Bootstrap JS & keep all scripts together -->
-	<script src="https://kit.fontawesome.com/15a3b949c3.js" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</body>
-
+    <!-- Required for Bootstrap JS & keep all scripts together -->
+    <script
+      src="https://kit.fontawesome.com/15a3b949c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
