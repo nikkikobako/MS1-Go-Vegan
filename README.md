@@ -67,6 +67,7 @@ Since creating the wireframes, as part of testing I have amended to improve the 
 * For the XL screen on the why page I added collapsible buttons as the text was different sizes and the buttons give a uniform view
 * For the Why page the Let' Go Vegan Link was displaying, but this is the destination of the link so made a decision to remove only on the why page 
     and allow the So Why Go Vegan Header to display instead
+* Main background color chnaged from grey to a light green on advise of mentor     
 
 :house:[ Table of Contents](#home)
 
