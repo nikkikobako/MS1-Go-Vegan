@@ -68,8 +68,8 @@ h3 {
   color: #00867d;
 }
 
-/* large screen */
-@media screen and (min-width: 1700px) {
+/* large screen and large tablet*/
+@media screen and (min-width: 1020px) {
   .navbar {
     font-size: 2rem;
   }
@@ -105,12 +105,12 @@ h3 {
 #basic-details p {
   min-height: 30vmin;
   margin-top: 15px;
-  padding: 5px;
+  padding: 15px;
   width: 100%;
   text-align: center;
   background-color: rgb(0, 134, 125, 0.5);
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1rem;
   z-index: 1;
 }
 
@@ -144,16 +144,11 @@ h3 {
 
 /* tablet size */
 @media screen and (min-width: 640px) {
-  #pig-pic {
-    width: 100%;
-    margin: 0;
-  }
-
   #basic-details p {
     margin-top: 15px;
-    padding: 5px;
+    padding: 15px;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   #ready-btn {
@@ -165,8 +160,27 @@ h3 {
   }
 }
 
+/* large tablet size */
+@media screen and (min-width: 1020px) {
+  #basic-details p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  #ready-btn {
+    display: block;
+    margin: 20px;
+    min-height: 6vmin;
+    width: 40%;
+    font-size: 2rem;
+  }
+}
+
 /* large screen */
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1600px) {
   #pig-pic {
     width: 40%;
     margin-right: 5rem;
