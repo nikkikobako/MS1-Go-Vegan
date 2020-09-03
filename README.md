@@ -105,7 +105,7 @@ The project used a number of technologies to build the website
 * [GitPod](https://www.gitpod.io/) - Used to write my HTML and CSS and to store my images, recipes, documentation and wireframes
 * [GitHub](https://github.com/) - Used to version control my website, store the committed code and deploy my website to live
 * [Bootstrap framwork including](https://getbootstrap.com/) - Used to provide mobile first approach and to style content for different media devices
-* [JQuery]
+* [JQuery](https://jquery.com/) - Is a JavaScript library used by Bootstrap
 * [FontAwesome](https://fontawesome.com/) - Used for all my footer icons which included my challenge link and social media icons for YouTube, Twitter and Facebook
 * [Canva](https://www.canva.com/) - Used to create my logo and favicon
 * [TinyPNG](https://tinypng.com/) - Used to compress my pictures to ensure does not cause issues loading on different devices
