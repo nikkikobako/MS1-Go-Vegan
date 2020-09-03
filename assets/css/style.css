@@ -275,12 +275,8 @@ h3 {
 
 .card-body {
   background-color: #f8f8ff;
-  border-color: #f8f8ff;
- border: 2px solid #3f3f3f;
-  box-shadow: 5px 10px grey;
-  border-radius: 10px;
-  margin: 10px;
-}
+  border-color: #3f3f3f;
+ }
 
 /* --- Recipe Main Body  */
 
