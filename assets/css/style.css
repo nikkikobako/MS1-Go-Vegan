@@ -226,6 +226,10 @@ h3 {
   padding-right: 5%;
 }
 
+.why-initial {
+    min-height: 100px;
+}
+
 .why-text li {
   text-align: left;
 }
